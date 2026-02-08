@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Platformer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\ui\\widgets\\audiosettingswidgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\widgets\\audiosettingswidgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\model\\data\\properties\\persistentproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\properties\\persistentproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\utils\\disposables\\compositedisposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\disposables\\compositedisposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\utils\\disposables\\actiondisposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\disposables\\actiondisposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\utils\\disposables\\unityeventextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\disposables\\unityeventextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\utils\\spawnutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\spawnutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\components\\gobased\\randomspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\gobased\\randomspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\gobased\\spawncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\gobased\\spawncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersistentProperty.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\Properties\\PersistentProperty.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\Properties\\PersistentProperty.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\Properties\\PersistentProperty.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\Properties\\PersistentProperty.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:27:42.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AudioSettingsWidgets.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Widgets\\AudioSettingsWidgets.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Widgets\\AudioSettingsWidgets.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Widgets\\AudioSettingsWidgets.cs",
+              "RelativeToolTip": "Assets\\UI\\Widgets\\AudioSettingsWidgets.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:22:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnityEventExtensions.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAwAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:19:17.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActionDisposable.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\ActionDisposable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Disposables\\ActionDisposable.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\ActionDisposable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Disposables\\ActionDisposable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:15:07.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompositeDisposable.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\CompositeDisposable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Disposables\\CompositeDisposable.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\CompositeDisposable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Disposables\\CompositeDisposable.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T12:09:20.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SpawnComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T11:46:52.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpawnUtils.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\SpawnUtils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\SpawnUtils.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\SpawnUtils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\SpawnUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T11:43:05.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RandomSpawner.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\RandomSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\GoBased\\RandomSpawner.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\RandomSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\GoBased\\RandomSpawner.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T11:48:09.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

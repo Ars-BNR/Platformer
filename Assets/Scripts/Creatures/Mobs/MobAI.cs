@@ -1,0 +1,145 @@
+﻿using Platformer.Components;
+using Platformer.Components.ColliderBased;
+using Platformer.Components.GoBased;
+using System;
+using System.Collections;
+using UnityEngine;
+
+namespace Platformer.Creatures
+{
+
+    public class MobAI : MonoBehaviour
+    {
+        [SerializeField] private ColliderCheck _vision;
+        [SerializeField] private ColliderCheck _canAttack;
+
+        [SerializeField] private float _alarmDelay = 0.5f;
+        [SerializeField] private float _attackCoolDown = 1f;
+        [SerializeField] private float _missHeroCoolDown = 0.5f;
+
+        private IEnumerator _current;
+        private GameObject _target;
+
+        private static readonly int IsDead_trigger = Animator.StringToHash("is-dead");
+        
+
+
+        private SpawnListComponent _particles;
+        private Creature _creature;
+        private Animator _animator;
+        private bool _isDead;
+        private Patrol _patrol;
+
+        private void Awake()
+        {
+            _particles = GetComponent<SpawnListComponent>();
+            _creature = GetComponent<Creature>();
+            _animator = GetComponent<Animator>();
+            _patrol = GetComponent<Patrol>();
+        }
+
+        private void Start()
+        {
+            StartState(_patrol.DoPatrol());
+        }
+
+        public void OnHeroInVision(GameObject go) 
+        {
+            if (_isDead) return;
+
+            _target = go;
+            StartState(AgroToHero());
+        }
+
+        private IEnumerator AgroToHero()
+        {
+            LookAtTarget();
+            _particles.Spawn("Exclamation");
+            yield return new WaitForSeconds(_alarmDelay);
+
+            StartState(GoToHero());
+        }
+
+        private void LookAtTarget()
+        {
+            var direction = GetDirectionToTarget();
+            _creature.SetDirection(Vector2.zero);
+            _creature.UpdateSpriteDirection(direction);
+
+        }
+
+        private IEnumerator GoToHero()
+        {
+            while (_vision.IsTouchingLayer)
+            {
+                if (_canAttack.IsTouchingLayer)
+                {
+                    StartState(Attack());
+                }
+                else
+                {
+                    SetDirectionToTarget();
+                }
+                yield return null;
+            }
+
+            _creature.SetDirection(Vector2.zero);
+            _particles.Spawn("MissHero");
+            yield return new WaitForSeconds(_missHeroCoolDown);
+
+            StartState(_patrol.DoPatrol());
+        }
+
+        private void SetDirectionToTarget()
+        {
+            var direction = GetDirectionToTarget();
+            _creature.SetDirection(direction);
+        }
+        
+        private Vector2 GetDirectionToTarget()
+        {
+            var direction = _target.transform.position - transform.position;
+            direction.y = 0;
+            return direction.normalized;
+        }
+
+
+
+        private IEnumerator Attack()
+        {
+            while(_canAttack.IsTouchingLayer)
+            {
+                _creature.Attack();
+                yield return new WaitForSeconds(_attackCoolDown);
+            }
+
+            StartState(GoToHero());
+        }
+
+        private void StartState(IEnumerator coroutine)
+        {
+            _creature.SetDirection(Vector2.zero);
+
+            if (_current != null)
+                StopCoroutine(_current);
+
+            _current = coroutine;
+            StartCoroutine(coroutine);
+        }
+
+        public void OnDie()
+        {
+            _isDead = true;
+            _animator.SetBool(IsDead_trigger,true);
+
+            if (_current != null)
+                StopCoroutine(_current);
+            _creature.SetDirection(Vector2.zero);
+            //Destroy(_creature);
+
+        }
+
+
+    }
+}
+
