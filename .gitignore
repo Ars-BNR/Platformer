@@ -3,8 +3,8 @@
 *.log
 *.bin
 *.apk
-/Library/
-/Temp/
+/Library/*
+/Temp/*
 /Assets/VSCode*
 /obj/
 /out
