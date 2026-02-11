@@ -8,9 +8,11 @@ namespace Platformer.Model.Definitions
     public class DefsFacade: ScriptableObject
     {
         [SerializeField] private InventoryItemsDef _items;
+        [SerializeField] private ThrowableItemsDef _trowableItems;
         [SerializeField] private PlayerDef _player;
 
         public InventoryItemsDef Items => _items ; 
+        public ThrowableItemsDef Trowable => _trowableItems; 
         public PlayerDef Player => _player; 
 
         private static DefsFacade _instance;

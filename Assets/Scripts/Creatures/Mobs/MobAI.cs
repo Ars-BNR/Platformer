@@ -1,7 +1,5 @@
-﻿using Platformer.Components;
-using Platformer.Components.ColliderBased;
+﻿using Platformer.Components.ColliderBased;
 using Platformer.Components.GoBased;
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -16,6 +14,8 @@ namespace Platformer.Creatures
         [SerializeField] private float _alarmDelay = 0.5f;
         [SerializeField] private float _attackCoolDown = 1f;
         [SerializeField] private float _missHeroCoolDown = 0.5f;
+
+        [SerializeField] private float _horizontalTreshold = 0.2f;
 
         private IEnumerator _current;
         private GameObject _target;
@@ -78,7 +78,11 @@ namespace Platformer.Creatures
                 }
                 else
                 {
-                    SetDirectionToTarget();
+                    var horizontalDelta = Mathf.Abs(_target.transform.position.x - transform.position.x);
+                        if (horizontalDelta <= _horizontalTreshold)
+                        _creature.SetDirection(Vector2.zero);
+                    else
+                        SetDirectionToTarget();
                 }
                 yield return null;
             }

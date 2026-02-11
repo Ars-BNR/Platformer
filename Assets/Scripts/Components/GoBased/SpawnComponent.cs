@@ -1,4 +1,5 @@
 ﻿using Platformer.Utils;
+using System;
 using UnityEngine;
 
 namespace Platformer.Components.GoBased
@@ -19,6 +20,11 @@ namespace Platformer.Components.GoBased
             scale.x *= _invertXScale ? -1 : 1;
             instance.transform.localScale = scale;
             instance.SetActive(true);
+        }
+
+        public void SetPrefab(GameObject prefab)
+        {
+            _prefab = prefab;
         }
     }
 

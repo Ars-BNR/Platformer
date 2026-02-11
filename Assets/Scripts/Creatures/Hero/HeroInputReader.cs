@@ -48,8 +48,13 @@ namespace Platformer.InputReader
                 _hero.useHill();
             }
         }
-
-
+        public void OnNextItem(InputAction.CallbackContext context)
+        {
+            if(context.performed)
+            {
+                _hero.NextItem();
+            }
+        }
 
 
     }

@@ -1,10 +1,11 @@
 ﻿using Platformer.Components;
-using Platformer.Components.Colletables;
 using Platformer.Components.ColliderBased;
+using Platformer.Components.GoBased;
 using Platformer.Components.Health;
 using Platformer.Creatures;
 using Platformer.Model;
 using Platformer.Model.Data;
+using Platformer.Model.Definitions;
 using Platformer.Utils;
 using System.Collections;
 using UnityEditor.Animations;
@@ -33,6 +34,7 @@ namespace Platformer
 
         [Space]
         [SerializeField] private ProbabilityDropComponent _hitDrop;
+        [SerializeField] private SpawnComponent _throwSpawner;
 
         private static readonly int Throw_trigger = Animator.StringToHash("throw");
         private static readonly int IsOnWall = Animator.StringToHash("is-on-wall");
@@ -45,8 +47,25 @@ namespace Platformer
         private GameSession _session;
         private HealthComponent _health;
         private float _defaultGravityScale;
+
+        private const string SwordId = "Sword";
         private int numCoins => _session.Data.Inventory.Count("Coin");
-        private int SwordCount => _session.Data.Inventory.Count("Sword");
+        private int SwordCount => _session.Data.Inventory.Count(SwordId);
+
+        private string SelectedItemId => _session.QuickInventory.SelectedItem.Id;
+
+        private bool CanThrow
+        {
+            get
+            {
+                if (SelectedItemId == SwordId)
+                    return SwordCount > 1;
+
+                var def = DefsFacade.I.Items.Get(SelectedItemId);
+                return def.HasTag(ItemTag.Throwable);
+            }
+        }
+
         private int PortionCountSmall => _session.Data.Inventory.Count("PortionSmall");
 
         protected override void Awake()
@@ -71,7 +90,7 @@ namespace Platformer
 
         private void OnInventoryChanged(string id, int value)
         {
-            if (id == "Sword")
+            if (id == SwordId)
                 UpdateHeroWeapon();
         }
 
@@ -194,18 +213,21 @@ namespace Platformer
         public void useHill()
         {
             var portionCount = _session.Data.Inventory.Count("PortionSmall");
-            if(portionCount > 0)
+            if (portionCount > 0)
             {
                 _health.ModifyHealth(5);
-                _session.Data.Inventory.Remove("PortionSmall",1);
-            } 
+                _session.Data.Inventory.Remove("PortionSmall", 1);
+            }
         }
 
         public void OnDoThrow()
         {
             if (_superThrow)
             {
-                var numThrows = Mathf.Min(_superThrowParticles, SwordCount - 1);
+                var throwableCount = _session.Data.Inventory.Count(SelectedItemId);
+                var posibleCount = SelectedItemId == SwordId ? throwableCount - 1 : throwableCount;
+
+                var numThrows = Mathf.Min(_superThrowParticles, posibleCount);
                 StartCoroutine(DoSuperThrow(numThrows));
             }
             else
@@ -228,8 +250,13 @@ namespace Platformer
         private void ThrowAndRemoveFromInventory()
         {
             Sounds.Play("Range");
-            _particles.Spawn("Throw");
-            _session.Data.Inventory.Remove("Sword", 1);
+
+            var throwableId = _session.QuickInventory.SelectedItem.Id;
+            var throwableDef = DefsFacade.I.Trowable.Get(throwableId);
+            _throwSpawner.SetPrefab(throwableDef.Projectile);
+            _throwSpawner.Spawn();
+
+            _session.Data.Inventory.Remove(throwableId, 1);
         }
 
         public void StartThrowing()
@@ -239,12 +266,17 @@ namespace Platformer
 
         public void PerformThrowing()
         {
-            if (!_throwCooldown.IsReady || SwordCount <= 1) return;
+            if (!_throwCooldown.IsReady || !CanThrow) return;
 
             if (_superThrowCooldown.IsReady) _superThrow = true;
 
             Animator.SetTrigger(Throw_trigger);
             _throwCooldown.Reset();
+        }
+
+        public void NextItem()
+        {
+            _session.QuickInventory.SetNextItem();
         }
     }
 }

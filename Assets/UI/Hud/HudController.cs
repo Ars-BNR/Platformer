@@ -1,6 +1,7 @@
 ﻿using Platformer.Model;
 using Platformer.Model.Definitions;
 using Platformer.UI.Widgets;
+using Platformer.Utils;
 using UnityEngine;
 
 namespace Platformer.UI.Hud
@@ -25,6 +26,11 @@ namespace Platformer.UI.Hud
             var maxHealth = DefsFacade.I.Player.MaxHealth;
             var value = (float)newValue / maxHealth;
             _healthBar.SetProgress(value);
+        }
+
+        public void OnSettings()
+        {
+            WindowUtils.CreateWindow("UI/InGameMainMenuWindow");
         }
 
         private void OnDestroy()

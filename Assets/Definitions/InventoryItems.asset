@@ -14,10 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _items:
   - _id: Coin
-    _isStakable: 1
+    _icon: {fileID: -2322180950842035098, guid: af7bafcf7b84d3548a9901f2deed9b25,
+      type: 3}
+    _tags: 00000000
   - _id: Sword
-    _isStakable: 1
+    _icon: {fileID: 21300000, guid: fd7ee424e1a6fb84eafd0aa0f8892af9, type: 3}
+    _tags: 000000000100000002000000
   - _id: Key
-    _isStakable: 0
+    _icon: {fileID: 21300000, guid: 8cc9ab9dc07d79a40ad0fde282e24f39, type: 3}
+    _tags: 00000000
   - _id: PortionSmall
-    _isStakable: 0
+    _icon: {fileID: 1185527514606905908, guid: 996e983fb1f60ce43964e0a146e0caec, type: 3}
+    _tags: 00000000
+  - _id: PearlProjectile
+    _icon: {fileID: 21300000, guid: db3d6f6e9ca4ecb47b5ae446437b8354, type: 3}
+    _tags: 000000000100000002000000
+  - _id: PortionMiddle
+    _icon: {fileID: 3714227102187029162, guid: 996e983fb1f60ce43964e0a146e0caec, type: 3}
+    _tags: 0000000001000000
+  - _id: PortionBig
+    _icon: {fileID: 2011574832808370117, guid: 996e983fb1f60ce43964e0a146e0caec, type: 3}
+    _tags: 0000000001000000

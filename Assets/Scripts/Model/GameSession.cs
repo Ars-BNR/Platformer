@@ -1,4 +1,5 @@
 ﻿using Platformer.Model.Data;
+using Platformer.Utils.Disposables;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,9 @@ namespace Platformer.Model
         public PlayerData Data => _data;
         public PlayerData _save;
 
+        private readonly CompositeDisposable _trash = new CompositeDisposable();
+        public QuickInventoryModel QuickInventory { get; private set; }
+
         private void Awake()
         {
             LoadHud();
@@ -22,12 +26,20 @@ namespace Platformer.Model
             else
             {
                 Save();
+                InitModels();
                 DontDestroyOnLoad(this);
             }
         }
+
+        private void InitModels()
+        {
+            QuickInventory = new QuickInventoryModel(Data);
+            _trash.Retain(QuickInventory);
+        }
+
         private void LoadHud()
         {
-            SceneManager.LoadScene("Hud",LoadSceneMode.Additive);
+            SceneManager.LoadScene("Hud", LoadSceneMode.Additive);
         }
 
         private bool IsSessionExist()
@@ -49,6 +61,11 @@ namespace Platformer.Model
         public void LoadLastSave()
         {
             _data = _save.Clone();
+        }
+
+        public void Destroy()
+        {
+            _trash.Dispose();
         }
     }
 
