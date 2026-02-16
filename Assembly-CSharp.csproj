@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\Components\ColliderBased\EnterTriggerComponent.cs" />
      <Compile Include="Assets\Scripts\Components\ColliderBased\LayerCheck.cs" />
      <Compile Include="Assets\Scripts\Components\ColliderBased\LineCheck.cs" />
+     <Compile Include="Assets\Scripts\Components\Dialogs\ShowDialogComponent.cs" />
      <Compile Include="Assets\Scripts\Components\GoBased\DestroyObjectComponent.cs" />
      <Compile Include="Assets\Scripts\Components\GoBased\RandomSpawner.cs" />
      <Compile Include="Assets\Scripts\Components\GoBased\SpawnComponent.cs" />
@@ -97,6 +98,7 @@
      <Compile Include="Assets\Scripts\Creatures\Weapons\BaseProjectile.cs" />
      <Compile Include="Assets\Scripts\Creatures\Weapons\Projectile.cs" />
      <Compile Include="Assets\Scripts\Creatures\Weapons\SinusoidProjectile.cs" />
+     <Compile Include="Assets\Scripts\Model\Data\DialogData.cs" />
      <Compile Include="Assets\Scripts\Model\Data\GameSettings.cs" />
      <Compile Include="Assets\Scripts\Model\Data\ICanAddInventory.cs" />
      <Compile Include="Assets\Scripts\Model\Data\InventoryData.cs" />
@@ -108,6 +110,7 @@
      <Compile Include="Assets\Scripts\Model\Data\Properties\PrefsPersistentProperty.cs" />
      <Compile Include="Assets\Scripts\Model\Data\QuickInventoryModel.cs" />
      <Compile Include="Assets\Scripts\Model\Definitions\DefsFacade.cs" />
+     <Compile Include="Assets\Scripts\Model\Definitions\DialogDef.cs" />
      <Compile Include="Assets\Scripts\Model\Definitions\InventoryIdAttribute.cs" />
      <Compile Include="Assets\Scripts\Model\Definitions\InventoryItemsDef.cs" />
      <Compile Include="Assets\Scripts\Model\Definitions\ItemTag.cs" />
@@ -126,6 +129,7 @@
      <Compile Include="Assets\Scripts\Utils\SpawnUtils.cs" />
      <Compile Include="Assets\Scripts\Utils\WindowUtils.cs" />
      <Compile Include="Assets\UI\AnimatedWindow.cs" />
+     <Compile Include="Assets\UI\Hud\Dialogs\DialogBoxController.cs" />
      <Compile Include="Assets\UI\Hud\HudController.cs" />
      <Compile Include="Assets\UI\Hud\QuickInventory\InventoryItemWidget.cs" />
      <Compile Include="Assets\UI\Hud\QuickInventory\QuickInventoryController.cs" />

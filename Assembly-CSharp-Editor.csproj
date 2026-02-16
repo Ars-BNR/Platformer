@@ -55,7 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Components\Dialogs\Editor\ShowDialogComponentEditor.cs" />
      <Compile Include="Assets\Scripts\Model\Definitions\Editor\InventoryIdAttributeDrawer.cs" />
+     <Compile Include="Assets\Scripts\Utils\Editor\SerializedPropertyExtensions.cs" />
      <Compile Include="Assets\UI\Widgets\Editor\CustomButtonEditor.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
