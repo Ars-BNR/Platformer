@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00f64194a7d6ad449728312237b7a21, type: 3}
+  m_Name: en
+  m_EditorClassIdentifier: 
+  _url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTW8gSgJfOs-_598K4x5OJ3sSfP_0EkCLApYjyLYW0Ny9a61HaIYIYK4kW3ZTA6JLew3diWPMWp0vrV/pub?gid=0&single=true&output=tsv
+  _localeItems:
+  - Key: menu_title
+    Value: "menu\r"
+  - Key: button_start
+    Value: "start\r"
+  - Key: button_option
+    Value: "options\r"
+  - Key: button_exit
+    Value: "exit\r"
+  - Key: selected_language
+    Value: Selected language is {0}
+  - Key: option_locales
+    Value: language
+  - Key: button_back
+    Value: back
+  - Key: button_buy
+    Value: buy
+  - Key: button_use
+    Value: use
+  - Key: price_perk
+    Value: Price
+  - Key: double_jump
+    Value: After unlock you can use double jump.
+  - Key: super_throw
+    Value: After unlock you can throw three swords in one time.

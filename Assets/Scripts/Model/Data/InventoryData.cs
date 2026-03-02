@@ -1,4 +1,6 @@
 ﻿using Platformer.Model.Definitions;
+using Platformer.Model.Definitions.Repositories;
+using Platformer.Model.Definitions.Repositories.Items;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -94,11 +96,11 @@ namespace Platformer.Model.Data
 
             if (itemDef.HasTag(ItemTag.Stackable))
             {
-                RemoveFromStack(id,value);
+                RemoveFromStack(id, value);
             }
             else
             {
-                RemoveNonStack(id,value);
+                RemoveNonStack(id, value);
             }
 
 
@@ -138,6 +140,27 @@ namespace Platformer.Model.Data
 
             return count;
         }
+
+        public bool IsEnough(params ItemWithCount[] items)
+        {
+            var joined = new Dictionary<string, int>();
+            foreach (var item in items)
+            {
+                if (joined.ContainsKey(item.ItemId))
+                    joined[item.ItemId] += item.Count;
+                else
+                    joined.Add(item.ItemId, item.Count);
+            }
+
+            foreach (var kvp in joined)
+            {
+                var count = Count(kvp.Key);
+                if (count < kvp.Value) return false;
+            }
+
+            return true;
+        }
+
     }
 
     [Serializable]

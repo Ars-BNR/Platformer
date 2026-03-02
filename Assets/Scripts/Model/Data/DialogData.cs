@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Platformerl.Model.Data
+namespace Platformer.Model.Data
 {
     [Serializable]
     public class DialogData

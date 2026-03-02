@@ -1,4 +1,4 @@
-﻿using Platformerl.Model.Data;
+﻿using Platformer.Model.Data;
 using UnityEngine;
 
 namespace Platformer.Model.Definitions

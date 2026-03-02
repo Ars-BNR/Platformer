@@ -1,32 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Platformer\\",
+  "WorkspaceRootPath": "D:\\Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|e:\\platformer\\assets\\scripts\\components\\dialogs\\editor\\showdialogcomponenteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\dialogs\\editor\\showdialogcomponenteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\components\\showwindowcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\showwindowcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|E:\\Platformer\\assets\\scripts\\utils\\editor\\serializedpropertyextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\editor\\serializedpropertyextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\windows\\ingamemenu\\ingamemenuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\ingamemenu\\ingamemenuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|E:\\Platformer\\assets\\scripts\\model\\definitions\\dialogdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\dialogdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\windows\\perks\\perkwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\perks\\perkwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|E:\\Platformer\\assets\\scripts\\components\\dialogs\\showdialogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\dialogs\\showdialogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\windows\\perks\\manageperkswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\perks\\manageperkswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|E:\\Platformer\\assets\\ui\\hud\\dialogs\\dialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\dialogs\\dialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\models\\perksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\models\\perksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Platformer\\Assets\\Platformer\\UI\\Hud\\Dialogs\\DialogBoxController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Platformer\\Assets\\Platformer\\Scripts\\Model\\Data\\DialogData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\data\\perksdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\perksdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\data\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\repositories\\perkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\repositories\\perkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\widgets\\itemwidgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\widgets\\itemwidgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\model\\data\\properties\\observableproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\properties\\observableproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\levelmanagement\\setfollowcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\levelmanagement\\setfollowcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\utils\\disposables\\unityeventextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\disposables\\unityeventextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\widgets\\predefineddatagroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\widgets\\predefineddatagroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\repositories\\defrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\repositories\\defrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\defsfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\defsfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\data\\inventorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\inventorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\models\\quickinventorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\models\\quickinventorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\utils\\cooldown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\cooldown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\repositories\\items\\itemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\repositories\\items\\itemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\hero\\heroinputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\hero\\heroinputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,87 +102,295 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SerializedPropertyExtensions.cs",
-              "DocumentMoniker": "E:\\Platformer\\Assets\\Scripts\\Utils\\Editor\\SerializedPropertyExtensions.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Editor\\SerializedPropertyExtensions.cs",
-              "ToolTip": "E:\\Platformer\\Assets\\Scripts\\Utils\\Editor\\SerializedPropertyExtensions.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Utils\\Editor\\SerializedPropertyExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ShowWindowComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T10:00:28.876Z"
+              "WhenOpened": "2026-03-02T06:16:49.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShowDialogComponentEditor.cs",
-              "DocumentMoniker": "E:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\Editor\\ShowDialogComponentEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Dialogs\\Editor\\ShowDialogComponentEditor.cs",
-              "ToolTip": "E:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\Editor\\ShowDialogComponentEditor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\Dialogs\\Editor\\ShowDialogComponentEditor.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA1wBgAAABfAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PerksModel.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\PerksModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Models\\PerksModel.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\PerksModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Models\\PerksModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T09:50:38.167Z",
+              "WhenOpened": "2026-03-01T13:26:43.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ObservableProperty.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\Properties\\ObservableProperty.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\Properties\\ObservableProperty.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\Properties\\ObservableProperty.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\Properties\\ObservableProperty.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T15:39:50.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SetFollowComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\LevelManagement\\SetFollowComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\LevelManagement\\SetFollowComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\LevelManagement\\SetFollowComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\LevelManagement\\SetFollowComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T05:05:56.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\GameSession.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\GameSession.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\GameSession.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\GameSession.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwC0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T13:20:42.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagePerksWindow.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
+              "RelativeToolTip": "Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T12:19:40.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemWidgets.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Widgets\\ItemWidgets.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Widgets\\ItemWidgets.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Widgets\\ItemWidgets.cs",
+              "RelativeToolTip": "Assets\\UI\\Widgets\\ItemWidgets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T18:52:05.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DialogDef.cs",
-              "DocumentMoniker": "E:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\DialogDef.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\DialogDef.cs",
-              "ToolTip": "E:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\DialogDef.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\DialogDef.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "PerkWidget.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\Perks\\PerkWidget.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\Perks\\PerkWidget.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\Perks\\PerkWidget.cs",
+              "RelativeToolTip": "Assets\\UI\\Windows\\Perks\\PerkWidget.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T09:32:58.109Z"
+              "WhenOpened": "2026-03-01T14:38:14.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShowDialogComponent.cs",
-              "DocumentMoniker": "E:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "ToolTip": "E:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA0AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "UnityEventExtensions.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T09:30:52.197Z"
+              "WhenOpened": "2026-03-01T15:52:09.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DialogBoxController.cs",
-              "DocumentMoniker": "E:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "ToolTip": "E:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "RelativeToolTip": "Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InGameMenuWindow.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\InGameMenu\\InGameMenuWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\InGameMenu\\InGameMenuWindow.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\InGameMenu\\InGameMenuWindow.cs",
+              "RelativeToolTip": "Assets\\UI\\Windows\\InGameMenu\\InGameMenuWindow.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T10:58:19.858Z"
+              "WhenOpened": "2026-03-01T15:36:31.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PerkRepository.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Repositories\\PerkRepository.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\Repositories\\PerkRepository.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Repositories\\PerkRepository.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\Repositories\\PerkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T12:23:22.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DialogData.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Platformer\\Scripts\\Model\\Data\\DialogData.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Platformer\\Scripts\\Model\\Data\\DialogData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Title": "PerksData.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\PerksData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\PerksData.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\PerksData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\PerksData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T16:02:53.46Z"
+              "WhenOpened": "2026-02-28T12:32:44.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DialogBoxController.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Platformer\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Platformer\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
+              "DocumentIndex": 13,
+              "Title": "PredefinedDataGroup.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Widgets\\PredefinedDataGroup.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Widgets\\PredefinedDataGroup.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Widgets\\PredefinedDataGroup.cs",
+              "RelativeToolTip": "Assets\\UI\\Widgets\\PredefinedDataGroup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T15:54:57.98Z"
+              "WhenOpened": "2026-03-01T14:05:22.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DefsFacade.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\DefsFacade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\DefsFacade.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\DefsFacade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\DefsFacade.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAvwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:14:57.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DefRepository.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Repositories\\DefRepository.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\Repositories\\DefRepository.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Repositories\\DefRepository.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\Repositories\\DefRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:03:35.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InventoryData.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\InventoryData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\InventoryData.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\InventoryData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\InventoryData.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAswKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T13:36:10.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\PlayerData.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T12:31:46.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuickInventoryModel.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\QuickInventoryModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Models\\QuickInventoryModel.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\QuickInventoryModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Models\\QuickInventoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:59:14.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cooldown.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Cooldown.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Cooldown.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\Cooldown.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Cooldown.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:40:02.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Creature.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Creature.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Creature.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:32:45.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ItemsRepository.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Repositories\\Items\\ItemsRepository.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\Repositories\\Items\\ItemsRepository.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Repositories\\Items\\ItemsRepository.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\Repositories\\Items\\ItemsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:06:12.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HeroInputReader.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\HeroInputReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Hero\\HeroInputReader.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\HeroInputReader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Hero\\HeroInputReader.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:56:06.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAxwCUBAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:55:27.942Z"
             }
           ]
         }

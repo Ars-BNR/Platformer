@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Platformer.Model.Definitions.Repositories;
+using Platformer.Model.Definitions.Repositories.Items;
 using UnityEngine;
 
 namespace Platformer.Model.Definitions
@@ -7,12 +8,16 @@ namespace Platformer.Model.Definitions
 
     public class DefsFacade: ScriptableObject
     {
-        [SerializeField] private InventoryItemsDef _items;
-        [SerializeField] private ThrowableItemsDef _trowableItems;
+        [SerializeField] private ItemsRepository _items;
+        [SerializeField] private ThrowableIRepository _trowableItems;
+        [SerializeField] private PortionRepository _portions;
+        [SerializeField] private PerkRepository _perks;
         [SerializeField] private PlayerDef _player;
 
-        public InventoryItemsDef Items => _items ; 
-        public ThrowableItemsDef Trowable => _trowableItems; 
+        public ItemsRepository Items => _items ; 
+        public ThrowableIRepository Trowable => _trowableItems; 
+        public PortionRepository Portions => _portions; 
+        public PerkRepository Perks => _perks; 
         public PlayerDef Player => _player; 
 
         private static DefsFacade _instance;

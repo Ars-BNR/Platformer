@@ -32,7 +32,8 @@ namespace Platformer.Model.Data.Properties
             get => _value;
             set
             {
-                var isSame = _value.Equals(value);
+                //var isSame = _value.Equals(value);
+                var isSame = object.Equals(_value, value);
                 if (isSame) return;
                 var oldValue = _value;
                 _value = value;

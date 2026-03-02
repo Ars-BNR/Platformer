@@ -49,10 +49,19 @@ namespace Platformer.Creatures
             IsGrounded = _groundCheck.IsTouchingLayer;
 
         }
+        protected virtual float CalculateXVelocity()
+        {
+           return Direction.x * CalculateSpeed();
+
+        }
+        protected virtual float CalculateSpeed()
+        {
+            return _speed;
+        }
 
         private void FixedUpdate()
         {
-            var xVelocity = Direction.x * _speed;
+            var xVelocity = CalculateXVelocity();
             var yVelocity = CalculateYVelocity();
             _rigidbody.velocity = new Vector2(xVelocity, yVelocity);
 

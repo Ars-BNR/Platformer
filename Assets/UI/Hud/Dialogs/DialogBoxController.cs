@@ -1,5 +1,5 @@
-﻿using Platformer.Utils;
-using Platformerl.Model.Data;
+﻿using Platformer.Model.Data;
+using Platformer.Utils;
 using System;
 using System.Collections;
 using UnityEngine;

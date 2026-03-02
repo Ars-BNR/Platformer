@@ -6,6 +6,8 @@ using Platformer.Creatures;
 using Platformer.Model;
 using Platformer.Model.Data;
 using Platformer.Model.Definitions;
+using Platformer.Model.Definitions.Repositories;
+using Platformer.Model.Definitions.Repositories.Items;
 using Platformer.Utils;
 using System.Collections;
 using UnityEditor.Animations;
@@ -139,7 +141,7 @@ namespace Platformer
 
         protected override float CalculateJumpVelocity(float yVelocity)
         {
-            if (!IsGrounded && _allowDoubleJump && !_isOnWall)
+            if (!IsGrounded && _allowDoubleJump && _session.PerksModel.IsDoubleJumpSupported && !_isOnWall)
             {
                 _allowDoubleJump = false;
                 DoJumpVfx();
@@ -222,7 +224,7 @@ namespace Platformer
 
         public void OnDoThrow()
         {
-            if (_superThrow)
+            if (_superThrow && _session.PerksModel.IsSuperThrowSupported)
             {
                 var throwableCount = _session.Data.Inventory.Count(SelectedItemId);
                 var posibleCount = SelectedItemId == SwordId ? throwableCount - 1 : throwableCount;
@@ -264,7 +266,55 @@ namespace Platformer
             _superThrowCooldown.Reset();
         }
 
-        public void PerformThrowing()
+        public void UseInventory()
+        {
+            if (IsSelectedItem(ItemTag.Throwable))
+            {
+                PerformTrowing();
+            }
+            else if (IsSelectedItem(ItemTag.Potion))
+            {
+                UsePotion();
+            }
+
+        }
+
+        private void UsePotion()
+        {
+            var potion = DefsFacade.I.Portions.Get(SelectedItemId);
+
+            switch (potion.Effect)
+            {
+                case Effect.AddHp:
+                    _session.Data.HP.Value += (int)potion.Value;
+                    break;
+                case Effect.SpeedUp:
+                    _speedUpCooldown.Value = _speedUpCooldown.TimeLasts + potion.Time;
+                    _additionalSpeed = Mathf.Max(potion.Value, _additionalSpeed);
+                    _speedUpCooldown.Reset();
+                    break;
+            }
+
+
+            _session.Data.Inventory.Remove(potion.Id, 1);
+        }
+
+        private Cooldown _speedUpCooldown = new Cooldown();
+        private float _additionalSpeed;
+
+        protected override float CalculateSpeed()
+        {
+            if (_speedUpCooldown.IsReady)
+                _additionalSpeed = 0f;
+            return base.CalculateSpeed() + _additionalSpeed;
+        }
+
+        private bool IsSelectedItem(ItemTag tag)
+        {
+            return _session.QuickInventory.SelectedDef.HasTag(tag);
+        }
+
+        private void PerformTrowing()
         {
             if (!_throwCooldown.IsReady || !CanThrow) return;
 
@@ -278,5 +328,6 @@ namespace Platformer
         {
             _session.QuickInventory.SetNextItem();
         }
+
     }
 }

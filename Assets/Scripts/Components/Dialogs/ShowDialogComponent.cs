@@ -1,6 +1,6 @@
-﻿using Platformer.Model.Definitions;
+﻿using Platformer.Model.Data;
+using Platformer.Model.Definitions;
 using Platformer.UI.Hud.Dialogs;
-using Platformerl.Model.Data;
 using System;
 using UnityEngine;
 

@@ -1,6 +1,5 @@
-﻿
-using Platformer.Model.Data;
-using Platformer.Model.Definitions;
+﻿using Platformer.Model.Data;
+using Platformer.Model.Definitions.Repositories.Items;
 using Platformer.Utils;
 using UnityEngine;
 

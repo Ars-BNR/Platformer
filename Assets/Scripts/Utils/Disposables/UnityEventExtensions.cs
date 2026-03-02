@@ -5,7 +5,7 @@ namespace Platformer.Utils.Disposables
 {
     public static class UnityEventExtensions
     {
-        public static IDisposable Subscibe(this UnityEvent unityEvent, UnityAction call)
+        public static IDisposable Subsrcibe(this UnityEvent unityEvent, UnityAction call)
         {
             unityEvent.AddListener(call);
             return new ActionDisposable(() => unityEvent.RemoveListener(call));

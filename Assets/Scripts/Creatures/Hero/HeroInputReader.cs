@@ -38,7 +38,7 @@ namespace Platformer.InputReader
 
             if(context.canceled)
             {
-                _hero.PerformThrowing();
+                _hero.UseInventory();
             }
         }
         public void OnUse(InputAction.CallbackContext context)
