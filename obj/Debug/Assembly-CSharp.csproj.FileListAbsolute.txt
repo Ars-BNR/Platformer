@@ -317,3 +317,7 @@ E:\Platformer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 E:\Platformer\obj\Debug\Assembly.44154EF1.Up2Date
 E:\Platformer\obj\Debug\Assembly-CSharp.dll
 E:\Platformer\obj\Debug\Assembly-CSharp.pdb
+D:\Platformer\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\Platformer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Platformer\obj\Debug\Assembly-CSharp.dll
+D:\Platformer\obj\Debug\Assembly-CSharp.pdb

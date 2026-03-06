@@ -1,6 +1,5 @@
 ﻿using Platformer.Model.Definitions;
 using Platformer.Model.Definitions.Repositories;
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 

@@ -6,6 +6,7 @@ using Platformer.Creatures;
 using Platformer.Model;
 using Platformer.Model.Data;
 using Platformer.Model.Definitions;
+using Platformer.Model.Definitions.Player;
 using Platformer.Model.Definitions.Repositories;
 using Platformer.Model.Definitions.Repositories.Items;
 using Platformer.Utils;
@@ -82,12 +83,22 @@ namespace Platformer
             _health = GetComponent<HealthComponent>();
 
             _session.Data.Inventory.OnChanged += OnInventoryChanged;
-
+            _session.StatsModel.OnUpgraded += OnHeroUpgraded;
 
             _health.SetHealth(_session.Data.HP.Value);
-            _session.Data.Inventory.OnChanged += OnInventoryChanged;
-
             UpdateHeroWeapon();
+        }
+
+        private void OnHeroUpgraded(StatId statId)
+        {
+            switch (statId)
+            {
+                case StatId.Hp:
+                    var health = (int)_session.StatsModel.GetValue(statId);
+                    _session.Data.HP.Value = health;
+                    _health.SetHealth(health);
+                    break;
+            }
         }
 
         private void OnInventoryChanged(string id, int value)
@@ -306,7 +317,8 @@ namespace Platformer
         {
             if (_speedUpCooldown.IsReady)
                 _additionalSpeed = 0f;
-            return base.CalculateSpeed() + _additionalSpeed;
+            var defaultSpeed = _session.StatsModel.GetValue(StatId.Speed);
+            return defaultSpeed + _additionalSpeed;
         }
 
         private bool IsSelectedItem(ItemTag tag)
@@ -329,5 +341,10 @@ namespace Platformer
             _session.QuickInventory.SetNextItem();
         }
 
+        private void OnDestroy()
+        {
+            _session.Data.Inventory.OnChanged -= OnInventoryChanged;
+            _session.StatsModel.OnUpgraded -= OnHeroUpgraded;
+        }
     }
 }

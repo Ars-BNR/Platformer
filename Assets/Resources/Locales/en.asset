@@ -38,3 +38,11 @@ MonoBehaviour:
     Value: After unlock you can use double jump.
   - Key: super_throw
     Value: After unlock you can throw three swords in one time.
+  - Key: upgrade_button
+    Value: upgrade
+  - Key: Health
+    Value: Health
+  - Key: Speed
+    Value: Speed
+  - Key: Range Damage
+    Value: Range Damage

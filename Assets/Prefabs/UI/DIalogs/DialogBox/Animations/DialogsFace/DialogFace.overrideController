@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DialogFace
+  m_Controller: {fileID: 9100000, guid: 4ae51269994a4f542ae891050d9718b8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2ad7089e4668dd249996a9e643387dcc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3af245c2ed1fe6c4ebcde2902c53a4b3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7a74a25c8ae9c6541889421a75e1ca4b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c8dd30f4022480041896fcc980caa8e7, type: 2}

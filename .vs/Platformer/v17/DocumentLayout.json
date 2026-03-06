@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "D:\\Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\model\\models\\perksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\models\\perksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\hud\\dialogs\\dialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\dialogs\\dialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\ui\\windows\\perks\\manageperkswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\perks\\manageperkswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\components\\dialogs\\personalizeddialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\dialogs\\personalizeddialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\dialogs\\showdialogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\dialogs\\showdialogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\data\\dialogdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\dialogdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\hud\\dialogs\\dialogcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\dialogs\\dialogcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\player\\playerdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\player\\playerdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\models\\statsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\models\\statsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\hud\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\windows\\playerstats\\statwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\playerstats\\statwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\windows\\playerstats\\playerstatswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\playerstats\\playerstatswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +62,166 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManagePerksWindow.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
-              "RelativeToolTip": "Assets\\UI\\Windows\\Perks\\ManagePerksWindow.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowEkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ShowDialogComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T06:36:28.929Z",
+              "WhenOpened": "2026-03-06T10:25:44.118Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DialogData.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\DialogData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\DialogData.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\DialogData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\DialogData.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:19:10.147Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PerksModel.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\PerksModel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Models\\PerksModel.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\PerksModel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Models\\PerksModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABVAAAAAAAAAA==",
+              "Title": "DialogBoxController.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
+              "RelativeToolTip": "Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T06:28:23.263Z",
+              "WhenOpened": "2026-03-06T06:12:35.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "PersonalizedDialogBoxController.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAzwA4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:12:02.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DialogContent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
+              "RelativeToolTip": "Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:03:20.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Creature.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Creature.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Creature.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswJAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T04:31:08.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\GameSession.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\GameSession.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\GameSession.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\GameSession.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T09:57:08.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HudController.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\HudController.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\HudController.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Hud\\HudController.cs",
+              "RelativeToolTip": "Assets\\UI\\Hud\\HudController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T09:55:23.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Hero.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
               "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
               "RelativeToolTip": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAkwJQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAqwFcBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T06:27:16.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T09:52:02.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerDef.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T09:23:09.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatWidget.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
+              "RelativeToolTip": "Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:04:15.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerStatsWindow.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
+              "RelativeToolTip": "Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:03:44.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatsModel.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\StatsModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Models\\StatsModel.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\StatsModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Model\\Models\\StatsModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:02:14.803Z"
             }
           ]
         }

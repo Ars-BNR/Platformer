@@ -1,5 +1,7 @@
 ﻿using Platformer.Components.LevelManagement;
 using Platformer.Model.Data;
+using Platformer.Model.Definitions.Player;
+using Platformer.Model.Models;
 using Platformer.Utils.Disposables;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +21,8 @@ namespace Platformer.Model
 
         private readonly CompositeDisposable _trash = new CompositeDisposable();
         public QuickInventoryModel QuickInventory { get; private set; }
-        public PerksModel PerksModel { get; set; }
+        public PerksModel PerksModel { get; private set; }
+        public StatsModel StatsModel { get; private set; }
 
         private readonly List<string> _checkpoints = new List<string>();
 
@@ -69,6 +72,11 @@ namespace Platformer.Model
 
             PerksModel = new PerksModel(_data);
             _trash.Retain(PerksModel);
+
+            StatsModel = new StatsModel(_data);
+            _trash.Retain(StatsModel);
+
+            _data.HP.Value = (int)StatsModel.GetValue(StatId.Hp);
         }
 
         private void LoadHud()

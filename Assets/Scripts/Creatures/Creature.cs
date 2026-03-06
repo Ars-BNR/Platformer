@@ -142,7 +142,7 @@ namespace Platformer.Creatures
             Sounds.Play("Meele");
         }
 
-        public void OnDoAttack()
+        public virtual void OnDoAttack()
         {
             _attackRange.Check();
         }
