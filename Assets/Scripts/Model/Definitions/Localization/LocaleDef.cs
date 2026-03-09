@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -13,9 +14,9 @@ namespace Platformer.Model.Definitions.Localization
 
         private UnityWebRequest _request;
 
-        public Dictionary<string,string> GetData()
+        public Dictionary<string, string> GetData()
         {
-            var dictionary = new Dictionary<string,string>();
+            var dictionary = new Dictionary<string, string>();
             foreach (var localeItem in _localeItems)
             {
                 dictionary.Add(localeItem.Key, localeItem.Value);
@@ -33,17 +34,33 @@ namespace Platformer.Model.Definitions.Localization
             _request.SendWebRequest().completed += OnDataLoaded;
         }
 
+#if UNITY_EDITOR
+        [ContextMenu("Update locale from file")]
+        public void UpdateLocaleFromFile()
+        {
+            var path = UnityEditor.EditorUtility.OpenFilePanel("Choose locale file", "", "tsv");
+            if (path.Length != 0)
+            {
+                var data = File.ReadAllText(path);
+                ParseData(data);
+            }
+        }
+#endif
         private void OnDataLoaded(AsyncOperation operation)
         {
             if (operation.isDone)
             {
-                var rows = _request.downloadHandler.text.Split('\n');
-                _localeItems.Clear();
-                foreach (var row in rows)
-                {
-                    AddLocaleItem(row);
-                }
-
+                var data = _request.downloadHandler.text;
+                ParseData(data);
+            }
+        }
+        private void ParseData(string data)
+        {
+            var rows = _request.downloadHandler.text.Split('\n');
+            _localeItems.Clear();
+            foreach (var row in rows)
+            {
+                AddLocaleItem(row);
             }
         }
 

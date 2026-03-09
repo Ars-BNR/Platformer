@@ -108,10 +108,6 @@ namespace Platformer.Model
             InitModels();
         }
 
-        public void Destroy()
-        {
-            _trash.Dispose();
-        }
 
         public bool IsChecked(string id)
         {
@@ -126,6 +122,24 @@ namespace Platformer.Model
                 _checkpoints.Add(id);
             }
         }
+
+        private List<string> _removedItems = new List<string>();
+
+        public bool RestoreState(string ItemId)
+        {
+            return _removedItems.Contains(ItemId);
+        }
+
+        public void StoreState(string ItemId)
+        {
+            if (!_removedItems.Contains(ItemId))
+                _removedItems.Add(ItemId);
+        }
+        public void Destroy()
+        {
+            _trash.Dispose();
+        }
+
     }
 
 }

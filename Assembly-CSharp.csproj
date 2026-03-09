@@ -92,6 +92,7 @@
      <Compile Include="Assets\Scripts\Components\Movement\CircularMovement.cs" />
      <Compile Include="Assets\Scripts\Components\Movement\VerticalLevitations.cs" />
      <Compile Include="Assets\Scripts\Components\ProbabilityDropComponent.cs" />
+     <Compile Include="Assets\Scripts\Components\RestoreStateComponent.cs" />
      <Compile Include="Assets\Scripts\Components\ShowWindowComponent.cs" />
      <Compile Include="Assets\Scripts\Components\TeleportComponent.cs" />
      <Compile Include="Assets\Scripts\Creatures\Creature.cs" />
@@ -156,6 +157,8 @@
      <Compile Include="Assets\UI\Hud\HudController.cs" />
      <Compile Include="Assets\UI\Hud\QuickInventory\InventoryItemWidget.cs" />
      <Compile Include="Assets\UI\Hud\QuickInventory\QuickInventoryController.cs" />
+     <Compile Include="Assets\UI\Localization\AbstractLocalizeComponent.cs" />
+     <Compile Include="Assets\UI\Localization\LocalizeImage.cs" />
      <Compile Include="Assets\UI\Localization\LocalizeText.cs" />
      <Compile Include="Assets\UI\Widgets\AudioSettingsWidgets.cs" />
      <Compile Include="Assets\UI\Widgets\ButtonSound.cs" />

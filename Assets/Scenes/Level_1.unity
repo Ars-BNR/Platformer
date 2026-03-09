@@ -6136,8 +6136,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2250556794238199660, guid: 3a5fd3252c9631f49b715133711232d2,
+        type: 3}
+      propertyPath: _state
+      value: 
+      objectReference: {fileID: 2250556794127447624}
+    - target: {fileID: 2250556794238199663, guid: 3a5fd3252c9631f49b715133711232d2,
+        type: 3}
+      propertyPath: m_Mass
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a5fd3252c9631f49b715133711232d2, type: 3}
+--- !u!1 &2250556794127447623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2250556794238199648, guid: 3a5fd3252c9631f49b715133711232d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2250556794127447622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2250556794127447624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2250556794127447623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151fd7d32bc2d764faf5b18c05e73717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: destructable-barrel1
 --- !u!58 &2569438437052577756
 CircleCollider2D:
   m_ObjectHideFlags: 0
