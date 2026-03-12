@@ -3,6 +3,7 @@ using Platformer.Components.ColliderBased;
 using Platformer.Components.GoBased;
 using Platformer.Components.Health;
 using Platformer.Creatures;
+using Platformer.Effects.CameraRelated;
 using Platformer.Model;
 using Platformer.Model.Data;
 using Platformer.Model.Definitions;
@@ -49,6 +50,7 @@ namespace Platformer
 
         private GameSession _session;
         private HealthComponent _health;
+        private CameraShakeEffect _cameraShake;
         private float _defaultGravityScale;
 
         private const string SwordId = "Sword";
@@ -79,6 +81,7 @@ namespace Platformer
 
         private void Start()
         {
+            _cameraShake = FindObjectOfType<CameraShakeEffect>();
             _session = FindObjectOfType<GameSession>();
             _health = GetComponent<HealthComponent>();
 
@@ -171,6 +174,7 @@ namespace Platformer
         public override void TakeDamage()
         {
             base.TakeDamage();
+            _cameraShake?.Shake();
             if (numCoins > 0)
             {
                 SpawnCoins();

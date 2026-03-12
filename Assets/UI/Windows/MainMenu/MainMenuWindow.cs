@@ -1,7 +1,7 @@
-﻿using Platformer.Utils;
+﻿using Platformer.UI.LevelsLoader;
+using Platformer.Utils;
 using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Platformer.UI.MainMenu
 {
@@ -11,18 +11,19 @@ namespace Platformer.UI.MainMenu
         private Action _closeAction;
         public void OnShowSettings()
         {
-           WindowUtils.CreateWindow("UI/SettingsWindow");
+            WindowUtils.CreateWindow("UI/SettingsWindow");
         }
         public void OnLanguages()
         {
-           WindowUtils.CreateWindow("UI/LocalizationWindow");
+            WindowUtils.CreateWindow("UI/LocalizationWindow");
         }
 
         public void OnStartGame()
         {
             _closeAction = () =>
             {
-                SceneManager.LoadScene("Level_1");
+                var loader = FindObjectOfType<LevelLoader>();
+                loader.LoadLevel("Level_1");
             };
             Close();
         }

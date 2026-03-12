@@ -55,6 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Effects\CameraRelated\BloodSplashOverlay.cs" />
+     <Compile Include="Assets\Effects\CameraRelated\CameraShakeEffect.cs" />
      <Compile Include="Assets\Effects\InfiniteBackground.cs" />
      <Compile Include="Assets\Effects\ParallaxEffect.cs" />
      <Compile Include="Assets\Scripts\Animations\SpriteAnimation.cs" />
@@ -157,6 +159,7 @@
      <Compile Include="Assets\UI\Hud\HudController.cs" />
      <Compile Include="Assets\UI\Hud\QuickInventory\InventoryItemWidget.cs" />
      <Compile Include="Assets\UI\Hud\QuickInventory\QuickInventoryController.cs" />
+     <Compile Include="Assets\UI\LevelsLoader\LevelLoader.cs" />
      <Compile Include="Assets\UI\Localization\AbstractLocalizeComponent.cs" />
      <Compile Include="Assets\UI\Localization\LocalizeImage.cs" />
      <Compile Include="Assets\UI\Localization\LocalizeText.cs" />

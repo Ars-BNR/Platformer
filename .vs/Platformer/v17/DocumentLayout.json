@@ -3,80 +3,24 @@
   "WorkspaceRootPath": "D:\\Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\components\\gobased\\destroyobjectcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\gobased\\destroyobjectcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\utils\\windowutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\windowutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\restorestatecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\restorestatecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\localization\\localedef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\localization\\localedef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\localization\\localizeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\localization\\localizeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\localization\\abstractlocalizecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\localization\\abstractlocalizecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\localization\\localizetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\localization\\localizetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\dialogs\\personalizeddialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\dialogs\\personalizeddialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\hud\\dialogs\\dialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\dialogs\\dialogboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\dialogs\\showdialogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\dialogs\\showdialogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\data\\dialogdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\dialogdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\hud\\dialogs\\dialogcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\dialogs\\dialogcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\components\\levelmanagement\\exitlevelcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\levelmanagement\\exitlevelcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\player\\playerdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\player\\playerdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\ui\\windows\\mainmenu\\mainmenuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\mainmenu\\mainmenuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\models\\statsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\models\\statsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\hud\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\windows\\playerstats\\statwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\playerstats\\statwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\windows\\playerstats\\playerstatswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\windows\\playerstats\\playerstatswindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\ui\\levelsloader\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\levelsloader\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,236 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestoreStateComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\RestoreStateComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\RestoreStateComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\RestoreStateComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\RestoreStateComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T18:55:28.697Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DestroyObjectComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\DestroyObjectComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\GoBased\\DestroyObjectComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\DestroyObjectComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\GoBased\\DestroyObjectComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Title": "WindowUtils.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\WindowUtils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\WindowUtils.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\WindowUtils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\WindowUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T18:59:06.312Z",
+              "WhenOpened": "2026-03-12T06:39:34.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameSession.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\GameSession.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\GameSession.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\GameSession.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\GameSession.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAuwIgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T09:57:08.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LocaleDef.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Localization\\LocaleDef.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\Localization\\LocaleDef.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Localization\\LocaleDef.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\Localization\\LocaleDef.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwCgAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T15:20:13.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LocalizeText.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Localization\\LocalizeText.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Localization\\LocalizeText.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Localization\\LocalizeText.cs",
-              "RelativeToolTip": "Assets\\UI\\Localization\\LocalizeText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:58:00.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LocalizeImage.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Localization\\LocalizeImage.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Localization\\LocalizeImage.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Localization\\LocalizeImage.cs",
-              "RelativeToolTip": "Assets\\UI\\Localization\\LocalizeImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:57:40.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AbstractLocalizeComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Localization\\AbstractLocalizeComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Localization\\AbstractLocalizeComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Localization\\AbstractLocalizeComponent.cs",
-              "RelativeToolTip": "Assets\\UI\\Localization\\AbstractLocalizeComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:57:33.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShowDialogComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\Dialogs\\ShowDialogComponent.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T10:25:44.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DialogData.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\DialogData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\DialogData.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\DialogData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\DialogData.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T06:19:10.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DialogBoxController.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "RelativeToolTip": "Assets\\UI\\Hud\\Dialogs\\DialogBoxController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAwGIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T06:12:35.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PersonalizedDialogBoxController.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\Dialogs\\PersonalizedDialogBoxController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwA4AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T06:12:02.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DialogContent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
-              "RelativeToolTip": "Assets\\UI\\Hud\\Dialogs\\DialogContent.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T06:03:20.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Creature.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Creature.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Creature.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAswJAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T04:31:08.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HudController.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\HudController.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\HudController.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Hud\\HudController.cs",
-              "RelativeToolTip": "Assets\\UI\\Hud\\HudController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBoAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T09:55:23.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Hero.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
               "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
               "RelativeToolTip": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
-              "ViewState": "AgIAAE4BAAAAAAAAAAAqwFcBAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAUwLAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T09:52:02.193Z"
+              "WhenOpened": "2026-03-12T06:38:02.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PlayerDef.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ExitLevelComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\LevelManagement\\ExitLevelComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\LevelManagement\\ExitLevelComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\LevelManagement\\ExitLevelComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\LevelManagement\\ExitLevelComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T09:23:09.618Z"
+              "WhenOpened": "2026-03-12T06:34:10.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StatWidget.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
-              "RelativeToolTip": "Assets\\UI\\Windows\\PlayerStats\\StatWidget.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDIAAABDAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainMenuWindow.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\MainMenu\\MainMenuWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\MainMenu\\MainMenuWindow.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\MainMenu\\MainMenuWindow.cs",
+              "RelativeToolTip": "Assets\\UI\\Windows\\MainMenu\\MainMenuWindow.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T17:04:15.092Z"
+              "WhenOpened": "2026-03-12T06:31:57.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PlayerStatsWindow.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
-              "RelativeDocumentMoniker": "Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
-              "RelativeToolTip": "Assets\\UI\\Windows\\PlayerStats\\PlayerStatsWindow.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDgAAABEAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LevelLoader.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\LevelsLoader\\LevelLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\LevelsLoader\\LevelLoader.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\LevelsLoader\\LevelLoader.cs",
+              "RelativeToolTip": "Assets\\UI\\LevelsLoader\\LevelLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T17:03:44.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StatsModel.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T17:02:14.803Z"
+              "WhenOpened": "2026-03-12T06:10:45.758Z",
+              "EditorCaption": ""
             }
           ]
         }

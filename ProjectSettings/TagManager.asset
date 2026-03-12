@@ -10,6 +10,7 @@ TagManager:
   - SfxAudioSource
   - SimpleDialog
   - PersonalizedDialog
+  - MainUICanvas
   layers:
   - Default
   - TransparentFX
@@ -64,4 +65,7 @@ TagManager:
     locked: 0
   - name: Creatures
     uniqueID: 878089593
+    locked: 0
+  - name: Overlay
+    uniqueID: 856704727
     locked: 0
