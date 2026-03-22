@@ -47,7 +47,19 @@ MonoBehaviour:
       _price:
         _itemId: Coin
         _count: 6
-    - _value: 0.4
+    - _value: 0.6
+      _price:
+        _itemId: Coin
+        _count: 20
+  - _id: 3
+    _name: Critical Damage
+    _icon: {fileID: 21300000, guid: aa70fa6afc0d09d48aaf839f32540972, type: 3}
+    _levels:
+    - _value: 30
+      _price:
+        _itemId: Coin
+        _count: 6
+    - _value: 60
       _price:
         _itemId: Coin
         _count: 20

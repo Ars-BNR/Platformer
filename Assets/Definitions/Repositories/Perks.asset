@@ -19,9 +19,18 @@ MonoBehaviour:
     _price:
       _itemId: Coin
       _count: 20
+    _cooldown: 2
   - _id: super_throw
     icon: {fileID: 21300000, guid: 66e35b7bfecbdef4dbfcb270e18ccd6f, type: 3}
     _info: After unlock you can throw three swords in one time.
     _price:
       _itemId: DiamondGreen
       _count: 5
+    _cooldown: 3
+  - _id: shield
+    icon: {fileID: 21300000, guid: 578e82e06dca83145a45e8894ed8b1cc, type: 3}
+    _info: After unlock you can use shield protection.
+    _price:
+      _itemId: DiamondGreen
+      _count: 5
+    _cooldown: 3

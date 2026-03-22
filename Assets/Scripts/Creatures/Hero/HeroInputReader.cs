@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.Rendering.LookDev;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Platformer.InputReader
@@ -13,49 +14,55 @@ namespace Platformer.InputReader
             _hero.SetDirection(directionVector);
         }
 
-        
+
 
         public void OnInteract(InputAction.CallbackContext context)
         {
-            if(context.performed)
+            if (context.performed)
             {
                 _hero.Interact();
             }
         }
         public void OnAttack(InputAction.CallbackContext context)
         {
-            if(context.performed)
+            if (context.performed)
             {
                 _hero.Attack();
             }
         }
         public void OnThrow(InputAction.CallbackContext context)
         {
-            if(context.started)
+            if (context.started)
             {
                 _hero.StartThrowing();
             }
 
-            if(context.canceled)
+            if (context.canceled)
             {
                 _hero.UseInventory();
             }
         }
         public void OnUse(InputAction.CallbackContext context)
         {
-            if(context.performed)
+            if (context.performed)
             {
                 _hero.useHill();
             }
         }
         public void OnNextItem(InputAction.CallbackContext context)
         {
-            if(context.performed)
+            if (context.performed)
             {
                 _hero.NextItem();
             }
         }
 
-
+        public void OnUsePerk(InputAction.CallbackContext context)
+        {
+            if (context.performed)
+            {
+                _hero.UsePerk();
+            }
+        }
     }
 }

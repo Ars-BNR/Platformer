@@ -46,3 +46,13 @@ MonoBehaviour:
     Value: Speed
   - Key: Range Damage
     Value: Range Damage
+  - Key: shield
+    Value: sheild
+  - Key: Critical Damage
+    Value: Critical Damage
+  - Key: Crubby_Teacher_sen_0
+    Value: I have some for you
+  - Key: Crubby_Teacher_sen_1
+    Value: Give me a second and i show you
+  - Key: HeroToTeacherCrubby_0
+    Value: Yeah? What it is

@@ -3,6 +3,7 @@ using Platformer.Model.Definitions;
 using Platformer.UI.Hud.Dialogs;
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Platformer.Components.Dialogs
 {
@@ -12,13 +13,14 @@ namespace Platformer.Components.Dialogs
         [SerializeField] private Mode _mode;
         [SerializeField] private DialogData _bound;
         [SerializeField] private DialogDef _external;
+        [SerializeField] private UnityEvent _onComplete;
 
         private DialogBoxController _dialogBox;
 
         public void Show()
         {
             _dialogBox = FindDialogController();
-            _dialogBox.ShowDialog(Data);
+            _dialogBox.ShowDialog(Data, _onComplete);
         }
 
         private DialogBoxController FindDialogController()

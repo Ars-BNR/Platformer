@@ -58,7 +58,7 @@ namespace Platformer.UI.Perks
         private void OnUse()
         {
             var selected = _session.PerksModel.InterfaceSelection.Value;
-            _session.PerksModel.UsePerk(selected);
+            _session.PerksModel.SelectPerk(selected);
         }
 
         private void OnBuy()

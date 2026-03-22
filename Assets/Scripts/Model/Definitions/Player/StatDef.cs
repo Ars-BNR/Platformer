@@ -32,7 +32,8 @@ namespace Platformer.Model.Definitions.Player
     {
         Hp,
         Speed,
-        RangeDamage
+        RangeDamage,
+        CriticalDamage
     }
 
 }

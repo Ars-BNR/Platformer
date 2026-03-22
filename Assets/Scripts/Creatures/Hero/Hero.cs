@@ -1,4 +1,5 @@
-﻿using Platformer.Components;
+﻿using JetBrains.Annotations;
+using Platformer.Components;
 using Platformer.Components.ColliderBased;
 using Platformer.Components.GoBased;
 using Platformer.Components.Health;
@@ -35,6 +36,7 @@ namespace Platformer
         [SerializeField] private Cooldown _superThrowCooldown;
         [SerializeField] private int _superThrowParticles;
         [SerializeField] private float _superThrowDelay;
+        [SerializeField] private SheildComponent _shield;
 
         [Space]
         [SerializeField] private ProbabilityDropComponent _hitDrop;
@@ -157,6 +159,7 @@ namespace Platformer
         {
             if (!IsGrounded && _allowDoubleJump && _session.PerksModel.IsDoubleJumpSupported && !_isOnWall)
             {
+                _session.PerksModel.Cooldown.Reset();
                 _allowDoubleJump = false;
                 DoJumpVfx();
                 return _jumpSpeed;
@@ -245,6 +248,7 @@ namespace Platformer
                 var posibleCount = SelectedItemId == SwordId ? throwableCount - 1 : throwableCount;
 
                 var numThrows = Mathf.Min(_superThrowParticles, posibleCount);
+                _session.PerksModel.Cooldown.Reset();
                 StartCoroutine(DoSuperThrow(numThrows));
             }
             else
@@ -271,10 +275,30 @@ namespace Platformer
             var throwableId = _session.QuickInventory.SelectedItem.Id;
             var throwableDef = DefsFacade.I.Trowable.Get(throwableId);
             _throwSpawner.SetPrefab(throwableDef.Projectile);
-            _throwSpawner.Spawn();
+            var instance = _throwSpawner.SpawnInstance();
+            ApplyRangeDanageStat(instance);
 
             _session.Data.Inventory.Remove(throwableId, 1);
         }
+
+        private void ApplyRangeDanageStat(GameObject projectile)
+        {
+            var hpModifier = projectile.GetComponent<ModifyHealthComponent>();
+            var damageValue = (int)_session.StatsModel.GetValue(StatId.RangeDamage);
+            damageValue = ModifyDamageByCrit(damageValue);
+            hpModifier.SetDelta(-damageValue);
+        }
+
+        private int ModifyDamageByCrit(int damage)
+        {
+            var critChance = _session.StatsModel.GetValue(StatId.CriticalDamage);
+            if(Random.value * 100 <= critChance)
+            {
+               return damage * 2;
+            }
+            return damage;
+        }
+
 
         public void StartThrowing()
         {
@@ -304,7 +328,7 @@ namespace Platformer
                     _session.Data.HP.Value += (int)potion.Value;
                     break;
                 case Effect.SpeedUp:
-                    _speedUpCooldown.Value = _speedUpCooldown.TimeLasts + potion.Time;
+                    _speedUpCooldown.Value = _speedUpCooldown.RemaningTime + potion.Time;
                     _additionalSpeed = Mathf.Max(potion.Value, _additionalSpeed);
                     _speedUpCooldown.Reset();
                     break;
@@ -349,6 +373,15 @@ namespace Platformer
         {
             _session.Data.Inventory.OnChanged -= OnInventoryChanged;
             _session.StatsModel.OnUpgraded -= OnHeroUpgraded;
+        }
+
+        public void UsePerk()
+        {
+            if (_session.PerksModel.IsSheildSupported)
+            {
+                _shield.Use();
+                _session.PerksModel.Cooldown.Reset();
+            }
         }
     }
 }

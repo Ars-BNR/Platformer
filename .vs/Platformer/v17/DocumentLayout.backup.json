@@ -1,12 +1,248 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Platformer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\mobs\\boss\\bossnextstagestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\bossnextstagestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\mobs\\boss\\changelightscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\changelightscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\gobased\\circularprojectilespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\gobased\\circularprojectilespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\components\\showtargetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\showtargetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\showtargetcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\showtargetcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\showwindowcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\showwindowcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\widgets\\bosshpwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\widgets\\bosshpwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\utils\\lerpanimatedutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\lerpanimatedutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\teleportcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\teleportcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\utils\\disposables\\unityeventextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\disposables\\unityeventextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\hud\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\hud\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\mobs\\boss\\healthanimationglue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\healthanimationglue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\mobs\\boss\\bossshootstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\bossshootstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\weapons\\directionalprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\weapons\\directionalprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangeLightsComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:45:56.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossNextStageState.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:34:02.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CircularProjectileSpawner.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\CircularProjectileSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\GoBased\\CircularProjectileSpawner.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\CircularProjectileSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\GoBased\\CircularProjectileSpawner.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T10:29:26.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowTargetComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowTargetComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ShowTargetComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowTargetComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\ShowTargetComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T14:40:42.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowTargetController.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowTargetController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ShowTargetController.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowTargetController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\ShowTargetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T14:43:09.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShowWindowComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\ShowWindowComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T14:40:10.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeleportComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\TeleportComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\TeleportComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\TeleportComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\TeleportComponent.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:02:22.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LerpAnimatedUtils.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\LerpAnimatedUtils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\LerpAnimatedUtils.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\LerpAnimatedUtils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\LerpAnimatedUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:00:24.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BossHPWidget.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Widgets\\BossHPWidget.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Widgets\\BossHPWidget.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Widgets\\BossHPWidget.cs",
+              "RelativeToolTip": "Assets\\UI\\Widgets\\BossHPWidget.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIBQwCEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:48:16.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnityEventExtensions.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:57:18.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HudController.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\HudController.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Hud\\HudController.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Hud\\HudController.cs",
+              "RelativeToolTip": "Assets\\UI\\Hud\\HudController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:47:33.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HealthAnimationGlue.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\HealthAnimationGlue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\HealthAnimationGlue.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\HealthAnimationGlue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\HealthAnimationGlue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T15:57:26.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BossShootState.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossShootState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossShootState.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossShootState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossShootState.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T15:52:58.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DirectionalProjectile.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Weapons\\DirectionalProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Weapons\\DirectionalProjectile.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Weapons\\DirectionalProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Weapons\\DirectionalProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T10:20:03.029Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

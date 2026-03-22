@@ -3029,7 +3029,7 @@ MonoBehaviour:
     _inventory:
       _inventory:
       - Id: Coin
-        Value: 45
+        Value: 450
       - Id: Pearl
         Value: 1
       - Id: DiamondGreen
@@ -7156,7 +7156,18 @@ MonoBehaviour:
     _allowNextClip: 0
     _onComplete:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 7859584612500060684}
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &5265406904463784425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7878,13 +7889,27 @@ GameObject:
   - component: {fileID: 6267888355611849653}
   - component: {fileID: 7874712084857888289}
   - component: {fileID: 6661725660704967639}
+  - component: {fileID: 7859584612500060685}
   m_Layer: 10
-  m_Name: CrabbyNPCTalking
+  m_Name: CrabbyShopWithPersonalizedDialogBox
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7859584612500060685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7859584612500060684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7c8f28e9a44a341a5decb0df7c609a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _path: UI/ManagePerksWindow
 --- !u!114 &7874712084857888289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7900,17 +7925,31 @@ MonoBehaviour:
   _mode: 0
   _bound:
     _sentences:
-    - _value: I have some for you
-      _icon: {fileID: 21300000, guid: f26d987e477bfb54abaa3a299886b712, type: 3}
+    - _value: Crubby_Teacher_sen_0
+      _icon: {fileID: 21300000, guid: ba77e87b17af5b2469d3e55a7a215431, type: 3}
       _side: 1
-    - _value: Yeah? What it is
+    - _value: HeroToTeacherCrubby_0
       _icon: {fileID: 21300000, guid: de24f701ef2f99b4fa1420aff3aa2789, type: 3}
       _side: 0
-    - _value: Give me a second and i show you
-      _icon: {fileID: 21300000, guid: f26d987e477bfb54abaa3a299886b712, type: 3}
+    - _value: Crubby_Teacher_sen_1
+      _icon: {fileID: 21300000, guid: ba77e87b17af5b2469d3e55a7a215431, type: 3}
       _side: 1
     _type: 1
   _external: {fileID: 0}
+  _onComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7859584612500060685}
+        m_MethodName: Show
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &8290911266518673385
 PrefabInstance:
   m_ObjectHideFlags: 0

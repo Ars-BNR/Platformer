@@ -14,12 +14,18 @@ namespace Platformer.Components.GoBased
         [ContextMenu("Spawn")]
         public void Spawn()
         {
+            SpawnInstance();
+        }
+
+        public GameObject SpawnInstance()
+        {
             var instance = SpawnUtils.Spawn(_prefab, _target.position);
 
             var scale = _target.lossyScale;
             scale.x *= _invertXScale ? -1 : 1;
             instance.transform.localScale = scale;
             instance.SetActive(true);
+            return instance;
         }
 
         public void SetPrefab(GameObject prefab)

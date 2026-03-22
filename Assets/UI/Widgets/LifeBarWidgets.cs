@@ -22,7 +22,7 @@ namespace Platformer.UI.Widgets
             _maxHP = _hp.Health;
 
             _trash.Retain(_hp._onDie.Subsrcibe(OnDie));
-            _trash.Retain(_hp._onChange.Subscibe(OnHPChanged));
+            _trash.Retain(_hp._onChange.Subsrcibe(OnHPChanged));
         }
 
         private void OnDie()

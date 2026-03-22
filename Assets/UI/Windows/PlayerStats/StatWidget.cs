@@ -3,7 +3,6 @@ using Platformer.Model.Definitions;
 using Platformer.Model.Definitions.Localization;
 using Platformer.Model.Definitions.Player;
 using Platformer.UI.Widgets;
-using System;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
@@ -42,11 +41,13 @@ namespace Platformer.UI.Windows.PlayerStats
 
             _icon.sprite = _data.Icon;
             _name.text = LocalizationManager.I.Localize(_data.Name);
-            _currentValue.text = statsModel.GetValue(_data.ID).ToString(CultureInfo.InvariantCulture);
+            var currentLevelValue = statsModel.GetValue(_data.ID);
+            _currentValue.text = currentLevelValue.ToString(CultureInfo.InvariantCulture);
 
             var currentLevel = statsModel.GetCurrentLevel(_data.ID);
             var nextLevel = currentLevel + 1;
-            var increaseValue = statsModel.GetValue(_data.ID, nextLevel);
+            var nextLevelValue = statsModel.GetValue(_data.ID, nextLevel);
+            var increaseValue = nextLevelValue - currentLevelValue;
             _increaseValue.text = increaseValue.ToString(CultureInfo.InvariantCulture);
             _increaseValue.gameObject.SetActive(increaseValue > 0);
 

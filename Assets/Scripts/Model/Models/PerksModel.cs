@@ -1,5 +1,6 @@
 ﻿using Platformer.Model.Data.Properties;
 using Platformer.Model.Definitions;
+using Platformer.Utils;
 using Platformer.Utils.Disposables;
 using System;
 
@@ -11,14 +12,18 @@ namespace Platformer.Model.Data
         private readonly PlayerData _data;
         public readonly StringProperty InterfaceSelection = new StringProperty();
 
-        private CompositeDisposable _trash = new CompositeDisposable();
+        private readonly CompositeDisposable _trash = new CompositeDisposable();
+
+        public Cooldown Cooldown = new Cooldown();
 
         public event Action OnChanged;
 
         public string Used => _data.Perks.Used.Value;
 
-        public bool IsSuperThrowSupported => _data.Perks.Used.Value == "super_throw";
-        public bool IsDoubleJumpSupported => _data.Perks.Used.Value == "double_jump";
+        public bool IsSuperThrowSupported => _data.Perks.Used.Value == "super_throw" && Cooldown.IsReady;
+        public bool IsDoubleJumpSupported => _data.Perks.Used.Value == "double_jump" && Cooldown.IsReady;
+
+        public bool IsSheildSupported => _data.Perks.Used.Value == "shield" && Cooldown.IsReady;
 
         public PerksModel(PlayerData data)
         {
@@ -51,8 +56,10 @@ namespace Platformer.Model.Data
             }
         }
 
-        public void UsePerk(string selected)
+        public void SelectPerk(string selected)
         {
+            var perkDef = DefsFacade.I.Perks.Get(selected);
+            Cooldown.Value = perkDef.Cooldown;
             _data.Perks.Used.Value = selected;
         }
 

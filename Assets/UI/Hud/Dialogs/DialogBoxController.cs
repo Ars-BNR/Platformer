@@ -1,7 +1,9 @@
 ﻿using Platformer.Model.Data;
+using Platformer.Model.Definitions.Localization;
 using Platformer.Utils;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Platformer.UI.Hud.Dialogs
 {
@@ -19,7 +21,7 @@ namespace Platformer.UI.Hud.Dialogs
 
         [Space]
         [SerializeField] protected DialogContent _content;
-
+        private UnityEvent _onComplete;
         private DialogData _data;
         private int _currentSentence;
         private AudioSource _sfxSource;
@@ -34,8 +36,9 @@ namespace Platformer.UI.Hud.Dialogs
             _sfxSource = AudioUtils.FindSfxSource();
         }
 
-        public void ShowDialog(DialogData data)
+        public void ShowDialog(DialogData data, UnityEvent onComplete)
         {
+            _onComplete = onComplete;
             _data = data;
             _currentSentence = 0;
             CurrentContent.Text.text = string.Empty;
@@ -50,7 +53,9 @@ namespace Platformer.UI.Hud.Dialogs
             var sentence = CurrentSentence;
             CurrentContent.TrySetIcon(sentence.Icon);
 
-            foreach (var letter in sentence.Value)
+            var localizedSentence = sentence.Value.Localize();
+
+            foreach (var letter in localizedSentence)
             {
                 CurrentContent.Text.text += letter;
                 _sfxSource.PlayOneShot(_typing);
@@ -66,7 +71,8 @@ namespace Platformer.UI.Hud.Dialogs
             if (_typingRoutine == null) return;
 
             StopTypeAnimation();
-            CurrentContent.Text.text = _data.Sentences[_currentSentence].Value;
+            var sentence = _data.Sentences[_currentSentence].Value;
+            CurrentContent.Text.text = sentence.Localize();
         }
 
         private void StopTypeAnimation()
@@ -85,6 +91,7 @@ namespace Platformer.UI.Hud.Dialogs
             if (isDialogCompleted)
             {
                 HideDialogBox();
+                _onComplete?.Invoke();
             }
             else
             {
@@ -94,7 +101,7 @@ namespace Platformer.UI.Hud.Dialogs
 
         private void HideDialogBox()
         {
-            _animator.SetBool(IsOpen,false);
+            _animator.SetBool(IsOpen, false);
             _sfxSource.PlayOneShot(_close);
         }
 

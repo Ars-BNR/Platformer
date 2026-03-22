@@ -10,7 +10,7 @@ namespace Platformer.Utils.Disposables
             unityEvent.AddListener(call);
             return new ActionDisposable(() => unityEvent.RemoveListener(call));
         }
-        public static IDisposable Subscibe<TType>(this UnityEvent<TType> unityEvent, UnityAction<TType> call)
+        public static IDisposable Subsrcibe<TType>(this UnityEvent<TType> unityEvent, UnityAction<TType> call)
         {
             unityEvent.AddListener(call);
             return new ActionDisposable(() => unityEvent.RemoveListener(call));

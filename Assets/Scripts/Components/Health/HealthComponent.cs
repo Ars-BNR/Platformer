@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,11 +12,18 @@ namespace Platformer.Components.Health
         [SerializeField] private UnityEvent _onHeal;
         [SerializeField] public UnityEvent _onDie;
         [SerializeField] public HealthChangeEvent _onChange;
-
+        [SerializeField] private bool _immune;
+        
         public int Health => _health;
+        public bool Immune
+        {
+           get => _immune;
+           set => _immune = value;
+        }
 
         public void ModifyHealth(int healthDelta)
         {
+            if (healthDelta < 0 && Immune) return;
             if (_health <= 0) return;
 
             _health += healthDelta;
