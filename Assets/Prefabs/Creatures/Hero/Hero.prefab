@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 3854369906421296785}
   - component: {fileID: 1114745193529263806}
   - component: {fileID: 6883061341706638824}
+  - component: {fileID: 4285661316063784215}
   m_Layer: 13
   m_Name: Hero
   m_TagString: Player
@@ -663,7 +664,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  _immune: 0
 --- !u!114 &1114745193529263806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,6 +710,19 @@ MonoBehaviour:
     _clip: {fileID: 8300000, guid: be3a41ce374907c4cb3951de448bb7ea, type: 3}
   - _id: DIe
     _clip: {fileID: 8300000, guid: 556a7b485f6daf9458e138a767d56287, type: 3}
+--- !u!114 &4285661316063784215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3854369906421296874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc38de0a9e6d8042b807010be26155c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _immuneTime: 1
 --- !u!1 &3854369906554852912
 GameObject:
   m_ObjectHideFlags: 0

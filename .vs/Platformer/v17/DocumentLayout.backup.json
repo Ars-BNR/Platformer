@@ -3,11 +3,43 @@
   "WorkspaceRootPath": "D:\\Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\mobs\\boss\\bossnextstagestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\mobs\\boss\\bossfloodstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\bossfloodstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\mobs\\boss\\bossnextstagestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\bossnextstagestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\mobs\\boss\\changelightscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\creatures\\mobs\\boss\\floodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\floodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\health\\immuneafterhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\health\\immuneafterhit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\health\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\health\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\sheildcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\sheildcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\utils\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\ui\\widgets\\progressbarwidgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\widgets\\progressbarwidgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\mobs\\boss\\changelightscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\changelightscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +47,7 @@
       "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\gobased\\circularprojectilespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\components\\showtargetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\showtargetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\showtargetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -66,37 +98,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BossFloodState.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossFloodState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossFloodState.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossFloodState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossFloodState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:39:49.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FloodController.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\FloodController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\FloodController.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\FloodController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\FloodController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvw4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:18:27.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImmuneAfterHit.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Health\\ImmuneAfterHit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Health\\ImmuneAfterHit.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Health\\ImmuneAfterHit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\Health\\ImmuneAfterHit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:55:13.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SheildComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\SheildComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\SheildComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\SheildComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\SheildComponent.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:48:10.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAlwCYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:48:08.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthComponent.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Health\\HealthComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Health\\HealthComponent.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Health\\HealthComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\Health\\HealthComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:46:09.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lock.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Lock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Lock.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Utils\\Lock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Lock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:43:54.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProgressBarWidgets.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Widgets\\ProgressBarWidgets.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Widgets\\ProgressBarWidgets.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\UI\\Widgets\\ProgressBarWidgets.cs",
+              "RelativeToolTip": "Assets\\UI\\Widgets\\ProgressBarWidgets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T05:40:16.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ChangeLightsComponent.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
               "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
               "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\ChangeLightsComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T10:45:56.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T10:45:56.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BossNextStageState.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
               "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossNextStageState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T10:34:02.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "CircularProjectileSpawner.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\CircularProjectileSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\GoBased\\CircularProjectileSpawner.cs",
@@ -104,12 +233,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Components\\GoBased\\CircularProjectileSpawner.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T10:29:26.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T10:29:26.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ShowTargetComponent.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowTargetComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ShowTargetComponent.cs",
@@ -121,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "ShowTargetController.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowTargetController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ShowTargetController.cs",
@@ -129,12 +257,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Components\\ShowTargetController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T14:43:09.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T14:43:09.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "ShowWindowComponent.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ShowWindowComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ShowWindowComponent.cs",
@@ -146,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "TeleportComponent.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\TeleportComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\TeleportComponent.cs",
@@ -158,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "LerpAnimatedUtils.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\LerpAnimatedUtils.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\LerpAnimatedUtils.cs",
@@ -170,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "BossHPWidget.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Widgets\\BossHPWidget.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\Widgets\\BossHPWidget.cs",
@@ -182,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "UnityEventExtensions.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Disposables\\UnityEventExtensions.cs",
@@ -194,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "HudController.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\UI\\Hud\\HudController.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\Hud\\HudController.cs",
@@ -206,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "HealthAnimationGlue.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\HealthAnimationGlue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\HealthAnimationGlue.cs",
@@ -218,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "BossShootState.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossShootState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\BossShootState.cs",
@@ -230,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "DirectionalProjectile.cs",
               "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Weapons\\DirectionalProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Weapons\\DirectionalProjectile.cs",

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Platformer.Utils;
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,22 +9,18 @@ namespace Platformer.Components.Health
     public class HealthComponent : MonoBehaviour
     {
         [SerializeField] private int _health;
-        [SerializeField] private UnityEvent _onDamage;
+        [SerializeField] public UnityEvent _onDamage;
         [SerializeField] private UnityEvent _onHeal;
         [SerializeField] public UnityEvent _onDie;
         [SerializeField] public HealthChangeEvent _onChange;
-        [SerializeField] private bool _immune;
+        private Lock _immune = new Lock();
         
         public int Health => _health;
-        public bool Immune
-        {
-           get => _immune;
-           set => _immune = value;
-        }
+        public Lock Immune => _immune;
 
         public void ModifyHealth(int healthDelta)
         {
-            if (healthDelta < 0 && Immune) return;
+            if (healthDelta < 0 && Immune.IsLocked) return;
             if (_health <= 0) return;
 
             _health += healthDelta;
