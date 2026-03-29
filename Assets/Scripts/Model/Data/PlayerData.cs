@@ -10,6 +10,7 @@ namespace Platformer.Model.Data
         [SerializeField] private InventoryData _inventory;
 
         public IntProperty HP = new IntProperty();
+        public FloatProperty Fuel = new FloatProperty();
         public PerksData Perks = new PerksData();
         public LevelData Levels = new LevelData();
 

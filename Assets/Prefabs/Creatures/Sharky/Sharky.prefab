@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 139074326}
   - component: {fileID: 139074325}
   - component: {fileID: 139074324}
-  m_Layer: 14
+  m_Layer: 0
   m_Name: ProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978598530}
   - component: {fileID: 978598531}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: ObstacleCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 1045327240}
   - component: {fileID: 1045327242}
   - component: {fileID: 1045327241}
-  m_Layer: 14
+  m_Layer: 0
   m_Name: Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082461286}
   - component: {fileID: 5797372202259428239}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: PatrolGroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1486503647}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 1562687596}
   - component: {fileID: 1562687595}
   - component: {fileID: 1562687594}
-  m_Layer: 14
+  m_Layer: 0
   m_Name: LifeBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 1841569270}
   - component: {fileID: 1841569272}
   - component: {fileID: 1841569271}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: DeadCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2483191394572095677}
   - component: {fileID: 7212735495373904978}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MissSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -694,7 +694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3854369906382282754}
   - component: {fileID: 3854369906382282753}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: JumpParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,7 +750,7 @@ GameObject:
   - component: {fileID: 294949701}
   - component: {fileID: 1193998913}
   - component: {fileID: 3545397968526492897}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sharky
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1044,7 +1044,20 @@ MonoBehaviour:
   _groundCheck: {fileID: 5797372202259428239}
   _obstacleCheck: {fileID: 978598531}
   _direction: 1
-  _creature: {fileID: 3106366988927767156}
+  _onChangeDirection:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3106366988927767156}
+        m_MethodName: SetDirection
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1193998913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,7 +1290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3854369907025379406}
   - component: {fileID: 3854369907025379405}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FootStepPosition
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -1323,7 +1336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7021291044678401102}
   - component: {fileID: 4175213598527723814}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ExclamationSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1368,7 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6759781942641670177}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}

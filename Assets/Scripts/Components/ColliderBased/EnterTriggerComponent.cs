@@ -13,6 +13,7 @@ namespace Platformer.Components.ColliderBased
 
         private void OnTriggerEnter2D(Collider2D other)
         {
+            Debug.Log($"Trigger hit: {other.gameObject.name}");
             if (!other.gameObject.IsInLayer(_layer)) return;
             if (!string.IsNullOrEmpty(_tag) && !other.gameObject.CompareTag(_tag)) return;
 

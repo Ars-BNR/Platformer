@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\Components\Audio\PlaySoundsComponent.cs" />
      <Compile Include="Assets\Scripts\Components\Colletables\CollectorComponent.cs" />
      <Compile Include="Assets\Scripts\Components\Colletables\InventoryAddComponent.cs" />
+     <Compile Include="Assets\Scripts\Components\Colletables\RefilFuelComponent.cs" />
      <Compile Include="Assets\Scripts\Components\Colletables\SwordComponent.cs" />
      <Compile Include="Assets\Scripts\Components\ColliderBased\CheckCircleOverlap.cs" />
      <Compile Include="Assets\Scripts\Components\ColliderBased\ColliderCheck.cs" />
@@ -95,6 +96,7 @@
      <Compile Include="Assets\Scripts\Components\LevelManagement\SetFollowComponent.cs" />
      <Compile Include="Assets\Scripts\Components\Movement\CircularMovement.cs" />
      <Compile Include="Assets\Scripts\Components\Movement\VerticalLevitations.cs" />
+     <Compile Include="Assets\Scripts\Components\PostEffects\SetPostEffectProfile.cs" />
      <Compile Include="Assets\Scripts\Components\ProbabilityDropComponent.cs" />
      <Compile Include="Assets\Scripts\Components\RestoreStateComponent.cs" />
      <Compile Include="Assets\Scripts\Components\SheildComponent.cs" />
@@ -104,6 +106,7 @@
      <Compile Include="Assets\Scripts\Components\TeleportComponent.cs" />
      <Compile Include="Assets\Scripts\Creatures\Creature.cs" />
      <Compile Include="Assets\Scripts\Creatures\Hero\Hero.cs" />
+     <Compile Include="Assets\Scripts\Creatures\Hero\HeroFlashlight.cs" />
      <Compile Include="Assets\Scripts\Creatures\Hero\HeroInputReader.cs" />
      <Compile Include="Assets\Scripts\Creatures\Hero\InputEnableComponent.cs" />
      <Compile Include="Assets\Scripts\Creatures\Mobs\Boss\BossFloodState.cs" />
@@ -112,6 +115,7 @@
      <Compile Include="Assets\Scripts\Creatures\Mobs\Boss\ChangeLightsComponent.cs" />
      <Compile Include="Assets\Scripts\Creatures\Mobs\Boss\FloodController.cs" />
      <Compile Include="Assets\Scripts\Creatures\Mobs\Boss\HealthAnimationGlue.cs" />
+     <Compile Include="Assets\Scripts\Creatures\Mobs\Boss\Tentacles\TentacleAI.cs" />
      <Compile Include="Assets\Scripts\Creatures\Mobs\MobAI.cs" />
      <Compile Include="Assets\Scripts\Creatures\Mobs\Patroling\Patrol.cs" />
      <Compile Include="Assets\Scripts\Creatures\Mobs\Patroling\PlatformPatrol.cs" />
@@ -130,6 +134,7 @@
      <Compile Include="Assets\Scripts\Model\Data\PerksData.cs" />
      <Compile Include="Assets\Scripts\Model\Data\PlayerData.cs" />
      <Compile Include="Assets\Scripts\Model\Data\Properties\FloatPersistentProperty.cs" />
+     <Compile Include="Assets\Scripts\Model\Data\Properties\FloatProperty.cs" />
      <Compile Include="Assets\Scripts\Model\Data\Properties\IntProperty.cs" />
      <Compile Include="Assets\Scripts\Model\Data\Properties\ObservableProperty.cs" />
      <Compile Include="Assets\Scripts\Model\Data\Properties\PersistentProperty.cs" />
@@ -843,6 +848,18 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Platformer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.EditorCoroutines.Editor">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

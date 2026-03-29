@@ -31,8 +31,8 @@ namespace Platformer.UI.Perks
             _session = FindObjectOfType<GameSession>();
 
             _trash.Retain(_session.PerksModel.Subscribe(OnPerksChanged));
-            _trash.Retain(_buyButton.onClick.Subsrcibe(OnBuy));
-            _trash.Retain(_useButton.onClick.Subsrcibe(OnUse));
+            _trash.Retain(_buyButton.onClick.Subscribe(OnBuy));
+            _trash.Retain(_useButton.onClick.Subscribe(OnUse));
 
             OnPerksChanged();
         }

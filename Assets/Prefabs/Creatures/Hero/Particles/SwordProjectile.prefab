@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29edf3c11e5f174d8e828e553b3d1a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: 5
   _invertX: 0
 --- !u!114 &4615591436972962416
 MonoBehaviour:
@@ -241,7 +241,7 @@ MonoBehaviour:
   _tag: Enemy
   _layer:
     serializedVersion: 2
-    m_Bits: 89911
+    m_Bits: 16384
   _action:
     m_PersistentCalls:
       m_Calls:
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aed658320729d343b0c0ee66145ce98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hpDelta: -25
+  _hpDelta: -15
 --- !u!114 &2857438289878830959
 MonoBehaviour:
   m_ObjectHideFlags: 0

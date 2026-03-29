@@ -17,7 +17,7 @@ namespace Platformer.UI.Widgets
 
         private void Start()
         {
-            _trash.Retain(_slider.onValueChanged.Subsrcibe(OnSliderValueChanged));
+            _trash.Retain(_slider.onValueChanged.Subscribe(OnSliderValueChanged));
         }
 
         private void OnSliderValueChanged(float value)

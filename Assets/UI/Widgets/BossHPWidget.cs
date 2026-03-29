@@ -17,8 +17,8 @@ namespace Platformer.UI.Widgets
         private void Start()
         {
             _maxHealth = _health.Health;
-            _trash.Retain(_health._onChange.Subsrcibe(OnHpChanged));
-            _trash.Retain(_health._onDie.Subsrcibe(HideUI));
+            _trash.Retain(_health._onChange.Subscribe(OnHpChanged));
+            _trash.Retain(_health._onDie.Subscribe(HideUI));
         }
 
         [ContextMenu("Show")]

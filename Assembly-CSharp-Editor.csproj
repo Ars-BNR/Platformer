@@ -734,6 +734,18 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Platformer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.EditorCoroutines.Editor">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor">
+ <HintPath>D:/Platformer/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">

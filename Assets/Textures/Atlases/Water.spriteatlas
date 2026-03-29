@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d69491fa29cc49e4bb06f07d6a98a7a8, type: 3}
+    - {fileID: 2800000, guid: de786f69e8da9b8478fa0efa91a1fdd7, type: 3}
+    - {fileID: 2800000, guid: 9afc19476fb2eb84b89dc8ba85d7182c, type: 3}
+    - {fileID: 2800000, guid: f04a98fd3e635774081a3b13ea38be9e, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d97c1b20f7571aa44b5e56516a0b8661, type: 3}
+  - {fileID: 21300000, guid: 4388f1b0ac647aa43a9d751370f2e0dc, type: 3}
+  - {fileID: 21300000, guid: 2be92911a576c034db5164b9e9fbef8a, type: 3}
+  - {fileID: 21300000, guid: e7f34c821a6d9fe45993aa495b51e7fc, type: 3}
+  - {fileID: 3538689430123128980, guid: 9afc19476fb2eb84b89dc8ba85d7182c, type: 3}
+  - {fileID: 759440405009013545, guid: 9afc19476fb2eb84b89dc8ba85d7182c, type: 3}
+  - {fileID: 8506211366736525064, guid: 9afc19476fb2eb84b89dc8ba85d7182c, type: 3}
+  - {fileID: -5528557573366522457, guid: 9afc19476fb2eb84b89dc8ba85d7182c, type: 3}
+  - {fileID: -8843944345914528079, guid: de786f69e8da9b8478fa0efa91a1fdd7, type: 3}
+  - {fileID: -1898659343009958212, guid: de786f69e8da9b8478fa0efa91a1fdd7, type: 3}
+  - {fileID: -5088061633143109107, guid: de786f69e8da9b8478fa0efa91a1fdd7, type: 3}
+  - {fileID: -3808486951342339979, guid: de786f69e8da9b8478fa0efa91a1fdd7, type: 3}
+  - {fileID: -6505298659582443948, guid: f04a98fd3e635774081a3b13ea38be9e, type: 3}
+  - {fileID: -6018279857378552221, guid: f04a98fd3e635774081a3b13ea38be9e, type: 3}
+  - {fileID: -2749089684739404911, guid: f04a98fd3e635774081a3b13ea38be9e, type: 3}
+  - {fileID: -7718236803453008505, guid: f04a98fd3e635774081a3b13ea38be9e, type: 3}
+  - {fileID: 21300000, guid: 536c0baecbf0ddd4c9bfe118ab2b883f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 4
+  - 3
+  - 1
+  - 1
+  - WaterReflectMedium_3
+  - WaterReflectMedium_2
+  - WaterReflectMedium_1
+  - WaterReflectMedium_0
+  - WaterReflectSmall_1
+  - WaterReflectSmall_0
+  - WaterReflectSmall_3
+  - WaterReflectSmall_2
+  - WaterReflectLarge_1
+  - WaterReflectLarge_0
+  - WaterReflectLarge_3
+  - WaterReflectLarge_2
+  - 2
+  m_Tag: Water
+  m_IsVariant: 0

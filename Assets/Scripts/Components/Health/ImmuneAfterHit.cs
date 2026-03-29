@@ -15,7 +15,7 @@ namespace Platformer.Components.Health
         private void Awake()
         {
             _health = GetComponent<HealthComponent>();
-            _trash.Retain(_health._onDamage.Subsrcibe(OnDamage));
+            _trash.Retain(_health._onDamage.Subscribe(OnDamage));
         }
 
         private void OnDamage()

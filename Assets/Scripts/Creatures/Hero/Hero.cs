@@ -1,9 +1,9 @@
-﻿using JetBrains.Annotations;
-using Platformer.Components;
+﻿using Platformer.Components;
 using Platformer.Components.ColliderBased;
 using Platformer.Components.GoBased;
 using Platformer.Components.Health;
 using Platformer.Creatures;
+using Platformer.Creatures.Hero;
 using Platformer.Effects.CameraRelated;
 using Platformer.Model;
 using Platformer.Model.Data;
@@ -37,6 +37,7 @@ namespace Platformer
         [SerializeField] private int _superThrowParticles;
         [SerializeField] private float _superThrowDelay;
         [SerializeField] private SheildComponent _shield;
+        [SerializeField] private HeroFlashlight _flashlight;
 
         [Space]
         [SerializeField] private ProbabilityDropComponent _hitDrop;
@@ -283,9 +284,17 @@ namespace Platformer
 
         private void ApplyRangeDanageStat(GameObject projectile)
         {
+            Debug.Log($"[Hero] ApplyRangeDanageStat вызван!");
+
             var hpModifier = projectile.GetComponent<ModifyHealthComponent>();
             var damageValue = (int)_session.StatsModel.GetValue(StatId.RangeDamage);
+
+            Debug.Log($"[Hero] RangeDamage из статистики: {damageValue}");
+            Debug.Log($"[Hero] _session = {(_session == null ? "NULL" : "OK")}");
+
             damageValue = ModifyDamageByCrit(damageValue);
+            Debug.Log($"[Hero] Финальный урон: {damageValue}");
+
             hpModifier.SetDelta(-damageValue);
         }
 
@@ -383,5 +392,12 @@ namespace Platformer
                 _session.PerksModel.Cooldown.Reset();
             }
         }
+
+        public void ToggleFlashLight()
+        {
+            var isActive = _flashlight.gameObject.activeSelf;
+            _flashlight.gameObject.SetActive(!isActive);
+        }
+
     }
 }

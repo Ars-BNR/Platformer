@@ -32,7 +32,7 @@ namespace Platformer.UI.Windows.PlayerStats
 
             _session.StatsModel.InterfaceSelectedStat.Value = DefsFacade.I.Player.Stats[0].ID;
             _trash.Retain(_session.StatsModel.Subscribe(OnStatsChanged));
-            _trash.Retain(_upgradeButton.onClick.Subsrcibe(OnUpgrade));
+            _trash.Retain(_upgradeButton.onClick.Subscribe(OnUpgrade));
 
             OnStatsChanged();
         }

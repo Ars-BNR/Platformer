@@ -14,7 +14,7 @@ namespace Platformer.Creatures.Mobs.Boss
 
         private void Awake()
         {
-            _trash.Retain(_hp._onChange.Subsrcibe(OnHealthChanged));
+            _trash.Retain(_hp._onChange.Subscribe(OnHealthChanged));
         }
 
         private void OnHealthChanged(int health)
