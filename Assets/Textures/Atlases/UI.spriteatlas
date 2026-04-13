@@ -38,8 +38,8 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: bc033af6d00cb494fabbd48fe084d41a, type: 3}
@@ -100,7 +100,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0517d184bb9e72c4b9ad5a595c0a1d9c, type: 3}
   - {fileID: 21300000, guid: dfae0be4bcaed624cb166106c8035217, type: 3}
   - {fileID: 21300000, guid: eb4146f4f101cd049b2fea9880e8abd6, type: 3}
-  - {fileID: 21300000, guid: d60c3ef409b40e8488f05c1b1ac0f602, type: 3}
   - {fileID: 21300000, guid: c1ef132589599b848bf5b853ba48c3bd, type: 3}
   - {fileID: 21300000, guid: d778695534da6e14595365a53b1ca2b8, type: 3}
   - {fileID: 21300000, guid: 5436749517454b64eb9588cd3e88485f, type: 3}
@@ -237,7 +236,6 @@ SpriteAtlas:
   - yellow-panel
   - 67
   - 41
-  - menu
   - 04
   - 15
   - S_Bow13

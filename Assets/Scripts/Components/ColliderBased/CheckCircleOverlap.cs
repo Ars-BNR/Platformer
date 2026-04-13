@@ -1,7 +1,6 @@
 ﻿using Platformer.Utils;
 using System;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -16,14 +15,13 @@ namespace Platformer.Components.ColliderBased
         [SerializeField] private OnOverlapEvent _onOverlap;
         private readonly Collider2D[] _interactionResult = new Collider2D[10];
 
-
-
+#if UNITY_EDITOR
         private void OnDrawGizmosSelected()
         {
-            Handles.color = HandleUtils.TransparentRed;
-            Handles.DrawSolidDisc(transform.position, Vector3.forward, _radius);
+            UnityEditor.Handles.color = HandleUtils.TransparentRed;
+            UnityEditor.Handles.DrawSolidDisc(transform.position, Vector3.forward, _radius);
         }
-
+#endif
         public void Check()
         {
             var size = Physics2D.OverlapCircleNonAlloc(

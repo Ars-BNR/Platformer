@@ -1,5 +1,4 @@
-﻿using UnityEditor.Rendering.LookDev;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Platformer.InputReader

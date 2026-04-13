@@ -2,7 +2,7 @@
 
 namespace Platformer.Creatures.Mobs.Boss
 {
-    internal class BossFloodState : StateMachineBehaviour
+    public class BossFloodState : StateMachineBehaviour
     {
 
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

@@ -1,8 +1,11 @@
 ﻿using Platformer.Utils;
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace Platformer.Components.GoBased
 {
@@ -55,6 +58,7 @@ namespace Platformer.Components.GoBased
             rigibody.AddForce(forceVector * _speed, ForceMode2D.Impulse);
         }
 
+#if UNITY_EDITOR
         private void OnDrawGizmosSelected()
         {
             var position = transform.position;
@@ -80,6 +84,7 @@ namespace Platformer.Components.GoBased
                 _sectorAngle, 1f
                 );
         }
+#endif
 
         private Vector2 AngleToVectorInSector(float angle)
         {

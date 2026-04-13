@@ -14,7 +14,7 @@ namespace Platformer.Components.Colletables
         }
         public void DropInInventory()
         {
-            var session = FindObjectOfType<GameSession>();
+            var session = GameSession.Instance;
             foreach (var inventoryItemData in _items)
             {
                 session.Data.Inventory.Add(inventoryItemData.Id, inventoryItemData.Value);

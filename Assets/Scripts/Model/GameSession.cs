@@ -4,6 +4,7 @@ using Platformer.Model.Definitions.Player;
 using Platformer.Model.Models;
 using Platformer.Utils.Disposables;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,6 +16,8 @@ namespace Platformer.Model
     {
         [SerializeField] private PlayerData _data;
         [SerializeField] private string _defaultCheckPoint;
+
+        public static GameSession Instance { get; private set; }
 
         public PlayerData Data => _data;
         public PlayerData _save;
@@ -39,6 +42,7 @@ namespace Platformer.Model
                 Save();
                 InitModels();
                 DontDestroyOnLoad(this);
+                Instance = this;
                 StartSession(_defaultCheckPoint);
             }
         }
@@ -46,7 +50,7 @@ namespace Platformer.Model
         private void StartSession(string defaultCheckPoint)
         {
             SetChecked(defaultCheckPoint);
-            LoadHud();
+            LoadUIs();
             SpawnHero();
         }
 
@@ -79,9 +83,16 @@ namespace Platformer.Model
             _data.HP.Value = (int)StatsModel.GetValue(StatId.Hp);
         }
 
-        private void LoadHud()
+        private void LoadUIs()
         {
             SceneManager.LoadScene("Hud", LoadSceneMode.Additive);
+            LoadOnScreenControls();
+        }
+
+        [Conditional("USE_ONSCREEN_CONTROLS")]
+        private void LoadOnScreenControls()
+        {
+            SceneManager.LoadScene("Controls", LoadSceneMode.Additive);
         }
 
         private GameSession GetExistsSession()
@@ -137,6 +148,8 @@ namespace Platformer.Model
         }
         public void Destroy()
         {
+            if(Instance == this)
+                Instance = null;
             _trash.Dispose();
         }
 

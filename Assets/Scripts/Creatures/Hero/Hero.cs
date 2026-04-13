@@ -13,7 +13,6 @@ using Platformer.Model.Definitions.Repositories;
 using Platformer.Model.Definitions.Repositories.Items;
 using Platformer.Utils;
 using System.Collections;
-using UnityEditor.Animations;
 using UnityEngine;
 
 namespace Platformer
@@ -29,8 +28,8 @@ namespace Platformer
         [SerializeField] private int _damageAfterFalling;
 
         [SerializeField] private Cooldown _throwCooldown;
-        [SerializeField] private AnimatorController _armed;
-        [SerializeField] private AnimatorController _unarmed;
+        [SerializeField] private RuntimeAnimatorController _armed;
+        [SerializeField] private RuntimeAnimatorController _unarmed;
 
         [Header("Super throw")]
         [SerializeField] private Cooldown _superThrowCooldown;
@@ -284,16 +283,12 @@ namespace Platformer
 
         private void ApplyRangeDanageStat(GameObject projectile)
         {
-            Debug.Log($"[Hero] ApplyRangeDanageStat вызван!");
 
             var hpModifier = projectile.GetComponent<ModifyHealthComponent>();
             var damageValue = (int)_session.StatsModel.GetValue(StatId.RangeDamage);
 
-            Debug.Log($"[Hero] RangeDamage из статистики: {damageValue}");
-            Debug.Log($"[Hero] _session = {(_session == null ? "NULL" : "OK")}");
 
             damageValue = ModifyDamageByCrit(damageValue);
-            Debug.Log($"[Hero] Финальный урон: {damageValue}");
 
             hpModifier.SetDelta(-damageValue);
         }

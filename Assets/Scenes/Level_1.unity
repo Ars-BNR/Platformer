@@ -787,6 +787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 438063118}
   - component: {fileID: 438063117}
+  - component: {fileID: 438063119}
   m_Layer: 0
   m_Name: BG Image
   m_TagString: Untagged
@@ -852,12 +853,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438063116}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.633429, y: 9.06, z: 1.3090435}
-  m_LocalScale: {x: 3.386573, y: 7.4423003, z: 1.9488666}
+  m_LocalPosition: {x: 71.09, y: 9.06, z: 1.3090435}
+  m_LocalScale: {x: 16.00681, y: 7.4423003, z: 1.9488666}
   m_Children: []
   m_Father: {fileID: 369411249}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438063119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438063116}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca565410dfd8c3d4c91d0c0f370e2218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 1
 --- !u!1001 &492040977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2549,13 +2563,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -13.045241, y: 6.258325}
-      - {x: -12.961875, y: 1.0561016}
+    - - {x: -13.180672, y: 9.914955}
+      - {x: -12.961875, y: 0.98838615}
       - {x: -12.983959, y: -4.137063}
       - {x: -13.116979, y: -10.693914}
-      - {x: 10.308683, y: -10.457025}
-      - {x: 18.71163, y: -10.4798765}
-      - {x: 18.506481, y: 7.3857965}
+      - {x: 11.922481, y: -11.494466}
+      - {x: 169.28586, y: -11.73466}
+      - {x: 168.93188, y: 11.146054}
 --- !u!4 &943295414
 Transform:
   m_ObjectHideFlags: 0
@@ -3038,6 +3052,8 @@ MonoBehaviour:
         Value: 6
     HP:
       _value: 100
+    Fuel:
+      _value: 0
     Perks:
       _used:
         _value: 
@@ -3049,6 +3065,8 @@ MonoBehaviour:
     _inventory:
       _inventory: []
     HP:
+      _value: 0
+    Fuel:
       _value: 0
     Perks:
       _used:
@@ -7175,6 +7193,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1495812790}
     m_Modifications:
+    - target: {fileID: 2118876157195833799, guid: 3f4818d0209ff924792bd3e45aea4d3d,
+        type: 3}
+      propertyPath: _sceneName
+      value: Level_2.1(dark)
+      objectReference: {fileID: 0}
     - target: {fileID: 5265406904463784427, guid: 3f4818d0209ff924792bd3e45aea4d3d,
         type: 3}
       propertyPath: _bound._sentences.Array.data[1]._value
@@ -7729,6 +7752,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424402029927027371, guid: 11facc772d0f0f44ab36e375f9c32fec,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424402029927027371, guid: 11facc772d0f0f44ab36e375f9c32fec,
+        type: 3}
+      propertyPath: orthographic size
+      value: 1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424402029927027371, guid: 11facc772d0f0f44ab36e375f9c32fec,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424402029927027371, guid: 11facc772d0f0f44ab36e375f9c32fec,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424402029927027371, guid: 11facc772d0f0f44ab36e375f9c32fec,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.18050145
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424402029927027371, guid: 11facc772d0f0f44ab36e375f9c32fec,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.10898005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11facc772d0f0f44ab36e375f9c32fec, type: 3}

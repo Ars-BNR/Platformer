@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7774793382420823527}
   - component: {fileID: 3225866097303878480}
   - component: {fileID: 75550117580751533}
-  - component: {fileID: 707024437559017448}
+  - component: {fileID: 1835354642043025774}
   m_Layer: 0
   m_Name: Jump
   m_TagString: Untagged
@@ -110,8 +110,8 @@ MonoBehaviour:
     _onComplete:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 707024437559017448}
-          m_MethodName: DestroyObject
+        - m_Target: {fileID: 1835354642043025774}
+          m_MethodName: Release
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &707024437559017448
+--- !u!114 &1835354642043025774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,8 +130,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 6138143235079741894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a06c10f966d2079489b2602889ae25f2, type: 3}
+  m_Script: {fileID: 11500000, guid: ee046e00664475248b7146e735c08353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectToDestroy: {fileID: 6138143235079741894}
-  _state: {fileID: 0}
+  _onRestart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 75550117580751533}
+        m_MethodName: SetClip
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: transition
+          m_BoolArgument: 0
+        m_CallState: 2

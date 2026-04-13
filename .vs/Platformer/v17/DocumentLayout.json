@@ -3,68 +3,20 @@
   "WorkspaceRootPath": "D:\\Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC94C47-613C-D7CF-5C32-1A741937BBAB}|PlaymodeTests.csproj|d:\\platformer\\assets\\editor\\playmodetests\\cointest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC94C47-613C-D7CF-5C32-1A741937BBAB}|PlaymodeTests.csproj|solutionrelative:assets\\editor\\playmodetests\\cointest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\definitions\\player\\playerdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\definitions\\player\\playerdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC94C47-613C-D7CF-5C32-1A741937BBAB}|PlaymodeTests.csproj|d:\\platformer\\assets\\editor\\playmodetests\\cointestbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC94C47-613C-D7CF-5C32-1A741937BBAB}|PlaymodeTests.csproj|solutionrelative:assets\\editor\\playmodetests\\cointestbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|d:\\platformer\\assets\\scripts\\model\\models\\statsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\models\\statsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41030BC3-A9D2-4B4C-A580-D8BF83D7419F}|Assembly-CSharp-Editor.csproj|D:\\Platformer\\assets\\editor\\editortests\\simplemodeltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41030BC3-A9D2-4B4C-A580-D8BF83D7419F}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\editortests\\simplemodeltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\health\\modifyhealthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\health\\modifyhealthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\colliderbased\\entertriggercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\colliderbased\\entertriggercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\gobased\\spawncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\gobased\\spawncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\mobs\\mobai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\mobai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\weapons\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\weapons\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\mobs\\boss\\tentacles\\tentacleai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\boss\\tentacles\\tentacleai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\mobs\\patroling\\platformpatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\mobs\\patroling\\platformpatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\creatures\\hero\\heroflashlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\creatures\\hero\\heroflashlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\colletables\\refilfuelcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\colletables\\refilfuelcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\data\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\model\\data\\properties\\floatproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\model\\data\\properties\\floatproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\components\\posteffects\\setposteffectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\posteffects\\setposteffectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|D:\\Platformer\\assets\\scripts\\tests\\simplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100AE41E-9853-00A1-0814-C759729749EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tests\\simplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,202 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatsModel.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Models\\StatsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T11:52:46.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerDef.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Definitions\\Player\\PlayerDef.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Title": "CoinTestBehaviour.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Editor\\PlaymodeTests\\CoinTestBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\PlaymodeTests\\CoinTestBehaviour.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Editor\\PlaymodeTests\\CoinTestBehaviour.cs",
+              "RelativeToolTip": "Assets\\Editor\\PlaymodeTests\\CoinTestBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T11:50:55.592Z",
+              "WhenOpened": "2026-04-10T10:14:50.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Hero.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Hero\\Hero.cs",
-              "ViewState": "AgIAABMBAAAAAAAAAAAAACkBAAAuAAAAAAAAAA==",
+              "Title": "CoinTest.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Editor\\PlaymodeTests\\CoinTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\PlaymodeTests\\CoinTest.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Editor\\PlaymodeTests\\CoinTest.cs",
+              "RelativeToolTip": "Assets\\Editor\\PlaymodeTests\\CoinTest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T08:58:22.287Z",
+              "WhenOpened": "2026-04-10T09:49:36.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleModelTest.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Editor\\EditorTests\\SimpleModelTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\EditorTests\\SimpleModelTest.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Editor\\EditorTests\\SimpleModelTest.cs",
+              "RelativeToolTip": "Assets\\Editor\\EditorTests\\SimpleModelTest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:01:41.051Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ModifyHealthComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Health\\ModifyHealthComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Health\\ModifyHealthComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Health\\ModifyHealthComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\Health\\ModifyHealthComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "SimpleModel.cs",
+              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Tests\\SimpleModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tests\\SimpleModel.cs",
+              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Tests\\SimpleModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tests\\SimpleModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T19:20:51.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnterTriggerComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\ColliderBased\\EnterTriggerComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\ColliderBased\\EnterTriggerComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\ColliderBased\\EnterTriggerComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\ColliderBased\\EnterTriggerComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T17:59:35.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SpawnComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\GoBased\\SpawnComponent.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T11:22:42.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Creature.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Creature.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Creature.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Creature.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T19:47:14.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Projectile.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Weapons\\Projectile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Weapons\\Projectile.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Weapons\\Projectile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Weapons\\Projectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T19:48:32.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MobAI.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\MobAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\MobAI.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\MobAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\MobAI.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAArwFAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T19:54:04.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TentacleAI.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\Tentacles\\TentacleAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\Tentacles\\TentacleAI.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Boss\\Tentacles\\TentacleAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Boss\\Tentacles\\TentacleAI.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:47:34.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PlatformPatrol.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Patroling\\PlatformPatrol.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Mobs\\Patroling\\PlatformPatrol.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Mobs\\Patroling\\PlatformPatrol.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Mobs\\Patroling\\PlatformPatrol.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:37:54.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RefilFuelComponent.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\Colletables\\RefilFuelComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\Colletables\\RefilFuelComponent.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\Colletables\\RefilFuelComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\Colletables\\RefilFuelComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T10:44:55.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PlayerData.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\PlayerData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\PlayerData.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\PlayerData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\PlayerData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T09:16:13.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FloatProperty.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\Properties\\FloatProperty.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Data\\Properties\\FloatProperty.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Model\\Data\\Properties\\FloatProperty.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Model\\Data\\Properties\\FloatProperty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T09:13:48.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HeroFlashlight.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\HeroFlashlight.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Creatures\\Hero\\HeroFlashlight.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Creatures\\Hero\\HeroFlashlight.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Creatures\\Hero\\HeroFlashlight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T08:57:48.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SetPostEffectProfile.cs",
-              "DocumentMoniker": "D:\\Platformer\\Assets\\Scripts\\Components\\PostEffects\\SetPostEffectProfile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\PostEffects\\SetPostEffectProfile.cs",
-              "ToolTip": "D:\\Platformer\\Assets\\Scripts\\Components\\PostEffects\\SetPostEffectProfile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\PostEffects\\SetPostEffectProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T08:39:53.19Z"
+              "WhenOpened": "2026-04-10T09:00:00.07Z"
             }
           ]
         }

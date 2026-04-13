@@ -35,16 +35,16 @@ namespace Platformer.Creatures.Mobs
 
         private void Update()
         {
-            if(_traps.Count == 0)
+            if (_traps.Count == 0)
             {
                 enabled = false;
-                Destroy(gameObject,1f);
+                Destroy(gameObject, 1f);
             }
 
-            var hasAnyTarget = _traps.Any(x => x._vision.IsTouchingLayer);
-            if(hasAnyTarget)
+            var hasAnyTarget = HasAnyTarget();
+            if (hasAnyTarget)
             {
-                if(_cooldown.IsReady)
+                if (_cooldown.IsReady)
                 {
                     _traps[_currentTrap].Shoot();
                     _cooldown.Reset();
@@ -52,6 +52,18 @@ namespace Platformer.Creatures.Mobs
                 }
             }
         }
+
+        private bool HasAnyTarget()
+        {
+            foreach (var shootingTrapAI in _traps)
+            {
+                if (shootingTrapAI._vision.IsTouchingLayer)
+                    return true;
+            }
+
+            return false;
+        }
+
     }
 
 }

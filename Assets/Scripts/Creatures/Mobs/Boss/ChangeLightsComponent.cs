@@ -14,9 +14,14 @@ namespace Platformer.Creatures.Mobs.Boss
         [ContextMenu("ChangeColor")]
         public void SetColor()
         {
+            SetColor(_color);
+        }
+
+        public void SetColor(Color color)
+        {
             foreach (var light2D in _lights)
             {
-                light2D.color = _color;
+                light2D.color = color;
             }
         }
     }

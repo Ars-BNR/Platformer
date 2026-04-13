@@ -2,6 +2,7 @@
 using Platformer.Components.ColliderBased;
 using Platformer.Components.GoBased;
 using UnityEngine;
+using UnityEngine.Profiling;
 
 namespace Platformer.Creatures
 {
@@ -111,7 +112,10 @@ namespace Platformer.Creatures
 
         protected void DoJumpVfx()
         {
+            Profiler.BeginSample("JumpVFXSample");
             _particles.Spawn("Jump");
+            Profiler.EndSample();
+
             Sounds.Play("Jump");
         }
 
