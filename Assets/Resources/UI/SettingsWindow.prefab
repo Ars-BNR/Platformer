@@ -323,6 +323,7 @@ GameObject:
   - component: {fileID: 968741166}
   - component: {fileID: 968741168}
   - component: {fileID: 968741167}
+  - component: {fileID: 7879377256362435351}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -392,6 +393,20 @@ MonoBehaviour:
   m_Text: 'SFX
 
 '
+--- !u!114 &7879377256362435351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968741165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: sound
+  _capitalize: 1
 --- !u!1 &1053912905
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +902,7 @@ GameObject:
   - component: {fileID: 1681413140}
   - component: {fileID: 1681413142}
   - component: {fileID: 1681413141}
+  - component: {fileID: 8108704461628661101}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -956,6 +972,20 @@ MonoBehaviour:
   m_Text: 'Music
 
 '
+--- !u!114 &8108704461628661101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681413139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: music
+  _capitalize: 1
 --- !u!1 &2063934566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,6 +1060,7 @@ GameObject:
   - component: {fileID: 1103808991757307833}
   - component: {fileID: 1103808991757307839}
   - component: {fileID: 1103808991757307838}
+  - component: {fileID: 7346415439250651294}
   m_Layer: 5
   m_Name: PressedText
   m_TagString: Untagged
@@ -1097,6 +1128,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: OK
+--- !u!114 &7346415439250651294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103808991757307832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: btn_ok
+  _capitalize: 1
 --- !u!1 &1103808992658415728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1153,7 @@ GameObject:
   - component: {fileID: 1103808992658415729}
   - component: {fileID: 1103808992658415735}
   - component: {fileID: 1103808992658415734}
+  - component: {fileID: 4368952509456809616}
   m_Layer: 5
   m_Name: NormalText
   m_TagString: Untagged
@@ -1175,6 +1221,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: OK
+--- !u!114 &4368952509456809616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103808992658415728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: btn_ok
+  _capitalize: 1
 --- !u!1 &1103808993324985884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1509,6 +1569,7 @@ GameObject:
   - component: {fileID: 1103808993566499727}
   - component: {fileID: 1103808993566499725}
   - component: {fileID: 1103808993566499724}
+  - component: {fileID: 5910206991023618764}
   m_Layer: 5
   m_Name: Header
   m_TagString: Untagged
@@ -1576,6 +1637,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: OPTIONS
+--- !u!114 &5910206991023618764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103808993566499726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: button_settings
+  _capitalize: 1
 --- !u!1 &7462618677865325962
 GameObject:
   m_ObjectHideFlags: 0

@@ -154,7 +154,7 @@ MonoBehaviour:
   _tag: 
   _layer:
     serializedVersion: 2
-    m_Bits: 12545
+    m_Bits: 12544
   _action:
     m_PersistentCalls:
       m_Calls:
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aed658320729d343b0c0ee66145ce98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hpDelta: -15
+  _hpDelta: -5
 --- !u!114 &4375330265175131227
 MonoBehaviour:
   m_ObjectHideFlags: 0

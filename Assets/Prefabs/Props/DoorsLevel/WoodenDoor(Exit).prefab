@@ -211,8 +211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _required:
-  - Id: Sword
-    Value: 1
   - Id: Key
     Value: 1
   _removeAfterUse: 1
@@ -273,11 +271,14 @@ MonoBehaviour:
     - _value: You need a key
       _icon: {fileID: 0}
       _side: 0
-    - _value: 
+    - _value: Find Somewhere
       _icon: {fileID: 0}
       _side: 0
     _type: 0
   _external: {fileID: 0}
+  _onComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5265406904463784428
 MonoBehaviour:
   m_ObjectHideFlags: 0

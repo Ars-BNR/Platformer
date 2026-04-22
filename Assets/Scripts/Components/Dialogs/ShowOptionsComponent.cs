@@ -1,4 +1,5 @@
-﻿using Platformer.UI.Hud.Dialogs;
+﻿using Platformer.Model.Definitions.Localization;
+using Platformer.UI.Hud.Dialogs;
 using UnityEngine;
 
 namespace Platformer.Components.Dialogs
@@ -12,7 +13,6 @@ namespace Platformer.Components.Dialogs
         {
             if (_dialogBox == null)
                 _dialogBox = FindObjectOfType<OptionDialogController>();
-
             _dialogBox.Show(_data);
         }
 

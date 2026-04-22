@@ -139,8 +139,6 @@ namespace Platformer.Creatures
             if (_current != null)
                 StopCoroutine(_current);
             _creature.SetDirection(Vector2.zero);
-            //Destroy(_creature);
-
         }
 
 

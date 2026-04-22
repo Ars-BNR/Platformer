@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 2250556794238199659}
   - component: {fileID: 2250556794238199658}
   - component: {fileID: 2250556794238199661}
-  - component: {fileID: 2250556794238199660}
   - component: {fileID: 2250556794238199663}
   - component: {fileID: 2250556794238199662}
   - component: {fileID: 2250556794238199649}
   - component: {fileID: 7458974580516799472}
   - component: {fileID: 1596126409036401680}
+  - component: {fileID: 2250556794238199660}
+  - component: {fileID: 2250556794127447624}
   m_Layer: 8
   m_Name: DestructableBarrel
   m_TagString: Enemy
@@ -178,20 +179,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &2250556794238199660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2250556794238199648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a06c10f966d2079489b2602889ae25f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objectToDestroy: {fileID: 2250556794238199648}
-  _state: {fileID: 0}
 --- !u!50 &2250556794238199663
 Rigidbody2D:
   serializedVersion: 4
@@ -204,7 +191,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2
+  m_Mass: 30
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -301,6 +288,7 @@ MonoBehaviour:
   _target: {fileID: 2250556794238199659}
   _prefab: {fileID: 4890182054182720469, guid: b5748c7ef0fd18841b6cc33a9a553395, type: 3}
   _invertXScale: 0
+  _usePool: 0
 --- !u!114 &1596126409036401680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,3 +302,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clip: {fileID: 8300000, guid: 44fd9920107250a4f9163e903234b53c, type: 3}
+--- !u!114 &2250556794238199660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2250556794238199648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06c10f966d2079489b2602889ae25f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectToDestroy: {fileID: 2250556794238199648}
+  _state: {fileID: 2250556794127447624}
+--- !u!114 &2250556794127447624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2250556794238199648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151fd7d32bc2d764faf5b18c05e73717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: destructable-barrel1

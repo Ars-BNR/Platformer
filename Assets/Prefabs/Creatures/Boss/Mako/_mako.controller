@@ -580,7 +580,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Health
-    m_EventTreshold: 50
+    m_EventTreshold: 200
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8480713720212450461}
   m_Solo: 0
@@ -649,7 +649,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Health
-    m_EventTreshold: 100
+    m_EventTreshold: 400
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3430180480466506858}
   m_Solo: 0
@@ -707,7 +707,7 @@ AnimatorController:
   - m_Name: Health
     m_Type: 3
     m_DefaultFloat: 0
-    m_DefaultInt: 200
+    m_DefaultInt: 700
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   m_AnimatorLayers:

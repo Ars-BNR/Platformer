@@ -18,41 +18,106 @@ MonoBehaviour:
     Value: "menu\r"
   - Key: button_start
     Value: "start\r"
-  - Key: button_option
-    Value: "options\r"
+  - Key: button_settings
+    Value: "settings\r"
   - Key: button_exit
     Value: "exit\r"
   - Key: selected_language
-    Value: Selected language is {0}
+    Value: "Selected language is {0}\r"
   - Key: option_locales
-    Value: language
+    Value: "language\r"
   - Key: button_back
-    Value: back
+    Value: "back\r"
   - Key: button_buy
-    Value: buy
+    Value: "buy\r"
   - Key: button_use
-    Value: use
+    Value: "use\r"
   - Key: price_perk
-    Value: Price
+    Value: "Price\r"
   - Key: double_jump
-    Value: After unlock you can use double jump.
+    Value: "After unlock you can use double jump.\r"
   - Key: super_throw
-    Value: After unlock you can throw three swords in one time.
+    Value: "After unlock you can throw three swords in one time.\r"
   - Key: upgrade_button
-    Value: upgrade
+    Value: "upgrade\r"
   - Key: Health
-    Value: Health
+    Value: "Health\r"
   - Key: Speed
-    Value: Speed
+    Value: "Speed\r"
   - Key: Range Damage
-    Value: Range Damage
-  - Key: shield
-    Value: sheild
+    Value: "Range Damage\r"
+  - Key: Shield
+    Value: "Shield\r"
   - Key: Critical Damage
-    Value: Critical Damage
+    Value: "Critical Damage\r"
   - Key: Crubby_Teacher_sen_0
-    Value: I have some for you
+    Value: "I have some for you\r"
   - Key: Crubby_Teacher_sen_1
-    Value: Give me a second and i show you
+    Value: "Give me a second and i show you\r"
   - Key: HeroToTeacherCrubby_0
-    Value: Yeah? What it is
+    Value: "Yeah? What it is\r"
+  - Key: Shield_Save
+    Value: "For a few second make you invincible\r"
+  - Key: button_restart
+    Value: "restart\r"
+  - Key: button_option
+    Value: "options\r"
+  - Key: btn_ok
+    Value: "ok\r"
+  - Key: music
+    Value: "music\r"
+  - Key: sound
+    Value: "sound\r"
+  - Key: continue
+    Value: "continue...\r"
+  - Key: Crubby_short_dialog_denied
+    Value: "Sorry next time\r"
+  - Key: Crubby_short_dialog_start
+    Value: "I can teach you some tricks\r"
+  - Key: Loading
+    Value: "Loading...\r"
+  - Key: L1_Enter_Speech_Hero_s1
+    Value: "After year of searching my coin i finally make lead\r"
+  - Key: L1_Enter_Speech_Hero_s2
+    Value: "Someone see it in cave of Mako\r"
+  - Key: L1_Enter_Speech_Hero_s3
+    Value: "i think i need prepared for meeting with this guy\r"
+  - Key: Door_Require_S1
+    Value: "You need a key\r"
+  - Key: Door_Require_S2
+    Value: "Find somewhere\r"
+  - Key: Door_open_S1
+    Value: "Open the Door?\r"
+  - Key: Btn_Yes
+    Value: "Yes\r"
+  - Key: Btn_No
+    Value: "No\r"
+  - Key: Door_Broken_S1
+    Value: "Key is stuck in the door\r"
+  - Key: Door_Broken_S2
+    Value: "Find exit somewhere\r"
+  - Key: MakoBoss_S1
+    Value: "With this coin i can finally find my dream life\r"
+  - Key: MakoBoss_S2
+    Value: "Yeah you might can search what ever you want but first give me back my
+      coin\r"
+  - Key: MakoBoss_S3
+    Value: "Nooo it is coin is MINE\r"
+  - Key: MakoBoss_End_S1
+    Value: "Noooo...\r"
+  - Key: MakoBoss_End_S2
+    Value: "I just want to find my....\r"
+  - Key: MakoBoss_End_S3
+    Value: "Sorry pal, but i told you this coin is mine\r"
+  - Key: MakoBoss_End_S4
+    Value: "Finally i find you\r"
+  - Key: MakoBoss_End_S5
+    Value: "At now i can rush Tano hideout\r"
+  - Key: MakoBoss_End_S6
+    Value: "And i get back my ship\r"
+  - Key: L4_Congraci_S1
+    Value: "Thank you for finish the game\r"
+  - Key: L4_Congraci_S2
+    Value: "Maybe we sea later\r"
+  - Key: L4_Congraci_S3
+    Value: Have a nice day!

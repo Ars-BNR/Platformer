@@ -641,10 +641,32 @@ MonoBehaviour:
         m_CallState: 2
   _onHeal:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6883061341706638824}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Heal
+          m_BoolArgument: 0
+        m_CallState: 2
   _onDie:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 6883061341706638824}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Die
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 4953034472660657374, guid: 2f8e3e843bd2a274791f95720775758f,
           type: 3}
         m_MethodName: ReloadLevel
@@ -727,8 +749,10 @@ MonoBehaviour:
     _clip: {fileID: 8300000, guid: 536875cb19c7dfe4c924da62785e317a, type: 3}
   - _id: Hurt
     _clip: {fileID: 8300000, guid: be3a41ce374907c4cb3951de448bb7ea, type: 3}
-  - _id: DIe
+  - _id: Die
     _clip: {fileID: 8300000, guid: 556a7b485f6daf9458e138a767d56287, type: 3}
+  - _id: Heal
+    _clip: {fileID: 8300000, guid: a62a78e0d6d6f034095f2beef3644096, type: 3}
 --- !u!114 &4285661316063784215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,7 +975,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3884389922678127071}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &6486634742275569058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,8 +1256,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.57
-  m_PointLightOuterRadius: 1.28
+  m_PointLightInnerRadius: 0.78
+  m_PointLightOuterRadius: 1.43
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5

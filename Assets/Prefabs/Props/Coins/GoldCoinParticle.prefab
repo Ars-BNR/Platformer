@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 5073203227648757169, guid: 84a399fe4a1dd7b4abd687174cbcc542,
         type: 3}
       propertyPath: _count
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6433509573818807632, guid: 84a399fe4a1dd7b4abd687174cbcc542,
         type: 3}
@@ -147,5 +147,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldCoinParticle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6669720316808763578, guid: 84a399fe4a1dd7b4abd687174cbcc542,
+        type: 3}
+      propertyPath: _state
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6168841397284548701, guid: 84a399fe4a1dd7b4abd687174cbcc542, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 84a399fe4a1dd7b4abd687174cbcc542, type: 3}

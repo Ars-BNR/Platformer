@@ -73,7 +73,6 @@ namespace Platformer
             }
         }
 
-        private int PortionCountSmall => _session.Data.Inventory.Count("PortionSmall");
 
         protected override void Awake()
         {
@@ -230,15 +229,7 @@ namespace Platformer
             Animator.runtimeAnimatorController = SwordCount == 0 ? _unarmed : _armed;
 
         }
-        public void useHill()
-        {
-            var portionCount = _session.Data.Inventory.Count("PortionSmall");
-            if (portionCount > 0)
-            {
-                _health.ModifyHealth(5);
-                _session.Data.Inventory.Remove("PortionSmall", 1);
-            }
-        }
+       
 
         public void OnDoThrow()
         {
@@ -330,6 +321,7 @@ namespace Platformer
             {
                 case Effect.AddHp:
                     _session.Data.HP.Value += (int)potion.Value;
+                    _health.ModifyHealth(+(int)potion.Value);
                     break;
                 case Effect.SpeedUp:
                     _speedUpCooldown.Value = _speedUpCooldown.RemaningTime + potion.Time;

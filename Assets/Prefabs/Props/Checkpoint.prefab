@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1369108659875548523}
   - component: {fileID: 1369108659875548522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,8 @@ GameObject:
   - component: {fileID: 1369108660334499355}
   - component: {fileID: 1369108660334499351}
   - component: {fileID: 1369108660334499352}
-  m_Layer: 0
+  - component: {fileID: 3552050990516932031}
+  m_Layer: 9
   m_Name: Checkpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,6 +197,7 @@ MonoBehaviour:
   _target: {fileID: 1369108660334499353}
   _prefab: {fileID: 3854369906421296874, guid: 4b130dfbd399d81438e871840e17b693, type: 3}
   _invertXScale: 0
+  _usePool: 0
 --- !u!61 &1369108660334499351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -234,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cf1540dde11fa841a28af0edfcd85bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tag: 
+  _tag: Player
   _layer:
     serializedVersion: 2
     m_Bits: 8192
@@ -252,6 +254,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3552050990516932031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369108660334499356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7b7a1afc6d86146bbf491212183428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clip: {fileID: 8300000, guid: 34de41198a2662c47920b6083332412d, type: 3}
 --- !u!1 &1369108660337943663
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +278,7 @@ GameObject:
   - component: {fileID: 1369108660337943662}
   - component: {fileID: 1369108660337943661}
   - component: {fileID: 1369108660337943660}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -372,7 +387,18 @@ MonoBehaviour:
     _allowNextClip: 1
     _onComplete:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 3552050990516932031}
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - _name: checked
     _sprites:
     - {fileID: 21300000, guid: 7a5550c61cf824941b629738cde501af, type: 3}

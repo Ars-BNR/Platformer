@@ -19,11 +19,11 @@ MonoBehaviour:
     _name: Health
     _icon: {fileID: 21300000, guid: 6e9c09d18d24a8c46902f9c1fa1c9973, type: 3}
     _levels:
-    - _value: 50
-      _price:
-        _itemId: DiamondGreen
-        _count: 5
     - _value: 100
+      _price:
+        _itemId: Coin
+        _count: 20
+    - _value: 150
       _price:
         _itemId: Coin
         _count: 40
@@ -43,7 +43,7 @@ MonoBehaviour:
     _name: Range Damage
     _icon: {fileID: 21300000, guid: 5436749517454b64eb9588cd3e88485f, type: 3}
     _levels:
-    - _value: 15
+    - _value: 20
       _price:
         _itemId: Coin
         _count: 6

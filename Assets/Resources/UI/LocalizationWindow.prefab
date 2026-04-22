@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: 869c621a6fee32e4391baff87cbb2173, type: 3}
 --- !u!1 &2217929749523570118
 GameObject:
   m_ObjectHideFlags: 0

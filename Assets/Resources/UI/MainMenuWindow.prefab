@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: e05d87554b1b1fa4cb67e5f2316ba5db, type: 3}
 --- !u!1 &3568545989155869363
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _key: button_option
+  _key: button_settings
   _capitalize: 1
 --- !u!1 &9059763332713406843
 GameObject:
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: e05d87554b1b1fa4cb67e5f2316ba5db, type: 3}
 --- !u!1 &9059763332867342319
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,7 +666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _key: button_option
+  _key: button_settings
   _capitalize: 1
 --- !u!1 &9059763333016010832
 GameObject:
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: e05d87554b1b1fa4cb67e5f2316ba5db, type: 3}
 --- !u!1 &9059763333271534268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: 869c621a6fee32e4391baff87cbb2173, type: 3}
 --- !u!1 &9059763333512352359
 GameObject:
   m_ObjectHideFlags: 0

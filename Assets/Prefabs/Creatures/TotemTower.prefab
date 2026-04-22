@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4697923376627813739
 Transform:
   m_ObjectHideFlags: 0
@@ -150,6 +150,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TotemWithOutHat
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817226151903060023, guid: 26cbbe90ce6099342aee6605b92b9c41,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817226151903060023, guid: 26cbbe90ce6099342aee6605b92b9c41,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 9181016865177682762, guid: 26cbbe90ce6099342aee6605b92b9c41,
         type: 3}

@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: 341107492ad4d8149bff3b4feff99783, type: 3}
 --- !u!1 &9059763332583213882
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 9059763332583213883}
   - component: {fileID: 9059763332583213881}
   - component: {fileID: 9059763332583213880}
+  - component: {fileID: 6128861424771674739}
   m_Layer: 5
   m_Name: PressedText
   m_TagString: Untagged
@@ -295,6 +296,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: OPTIONS
+--- !u!114 &6128861424771674739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059763332583213882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: button_option
+  _capitalize: 1
 --- !u!1 &9059763332713406843
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: e05d87554b1b1fa4cb67e5f2316ba5db, type: 3}
 --- !u!1 &9059763332867342319
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,6 +469,7 @@ GameObject:
   - component: {fileID: 9059763332867342316}
   - component: {fileID: 9059763332867342226}
   - component: {fileID: 9059763332867342317}
+  - component: {fileID: 6882890512395799444}
   m_Layer: 5
   m_Name: NormalText
   m_TagString: Untagged
@@ -521,6 +537,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: OPTIONS
+--- !u!114 &6882890512395799444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059763332867342319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: button_option
+  _capitalize: 1
 --- !u!1 &9059763333016010832
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: e05d87554b1b1fa4cb67e5f2316ba5db, type: 3}
 --- !u!1 &9059763333271534268
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +883,7 @@ GameObject:
   - component: {fileID: 9059763333271534269}
   - component: {fileID: 9059763333271534243}
   - component: {fileID: 9059763333271534242}
+  - component: {fileID: 3457482631181358856}
   m_Layer: 5
   m_Name: PressedText
   m_TagString: Untagged
@@ -920,6 +951,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: EXIT
+--- !u!114 &3457482631181358856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059763333271534268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: button_exit
+  _capitalize: 1
 --- !u!1 &9059763333332987496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,7 +1190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a50262283c8574bb8c4282f855086e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: 1cafab8ddd81f3b46a31054113449575, type: 3}
+  _audioClip: {fileID: 8300000, guid: 869c621a6fee32e4391baff87cbb2173, type: 3}
 --- !u!1 &9059763333512352359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1202,7 @@ GameObject:
   - component: {fileID: 9059763333512352356}
   - component: {fileID: 9059763333512352362}
   - component: {fileID: 9059763333512352357}
+  - component: {fileID: 1900224840393644533}
   m_Layer: 5
   m_Name: NormalText
   m_TagString: Untagged
@@ -1226,6 +1272,20 @@ MonoBehaviour:
   m_Text: 'RESTART
 
 '
+--- !u!114 &1900224840393644533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059763333512352359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: button_restart
+  _capitalize: 1
 --- !u!1 &9059763333588216647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,6 +1361,7 @@ GameObject:
   - component: {fileID: 9059763333670855146}
   - component: {fileID: 9059763333670855144}
   - component: {fileID: 9059763333670855147}
+  - component: {fileID: 3352178640849309302}
   m_Layer: 5
   m_Name: PressedText
   m_TagString: Untagged
@@ -1370,6 +1431,20 @@ MonoBehaviour:
   m_Text: 'RESTART
 
 '
+--- !u!114 &3352178640849309302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059763333670855141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: button_restart
+  _capitalize: 1
 --- !u!1 &9059763333835482651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,6 +1456,7 @@ GameObject:
   - component: {fileID: 9059763333835482648}
   - component: {fileID: 9059763333835482654}
   - component: {fileID: 9059763333835482649}
+  - component: {fileID: 377187296741105393}
   m_Layer: 5
   m_Name: NormalText
   m_TagString: Untagged
@@ -1448,3 +1524,17 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: EXIT
+--- !u!114 &377187296741105393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059763333835482651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9d5211f18a6ed42a424e2eed2132ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: button_exit
+  _capitalize: 1

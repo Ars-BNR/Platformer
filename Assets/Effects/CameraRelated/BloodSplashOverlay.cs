@@ -17,25 +17,48 @@ namespace Platformer.Effects.CameraRelated
 
         private readonly CompositeDisposable _trash = new CompositeDisposable();
 
-        private void Start()
+        //private void Start()
+        //{
+        //    _animator = GetComponent<Animator>();
+        //    _overScale = _overlay.localScale - Vector3.one;
+
+        //    _session = FindObjectOfType<GameSession>();
+        //    _session.Data.HP.SubscribeAndInvoke(OnHPChanged);
+
+        //}
+        private void Awake()
         {
             _animator = GetComponent<Animator>();
             _overScale = _overlay.localScale - Vector3.one;
 
-            _session = FindObjectOfType<GameSession>();
-            _session.Data.HP.SubscribeAndInvoke(OnHPChanged);
+            _session = GameSession.Instance;
+        }
+        private void OnEnable()
+        {
+            if (_session != null && _session.Data?.HP != null)
+            {
+                _trash.Retain(_session.Data.HP.SubscribeAndInvoke(OnHPChanged));
+            }
         }
 
         private void OnHPChanged(int newValue, int _)
         {
+            if (_animator == null)
+            {
+                return;
+            }
+
             var maxHP = _session.StatsModel.GetValue(StatId.Hp);
-            var hpNormalized = newValue / maxHP;
+            var hpNormalized = newValue / (float)maxHP;
             _animator.SetFloat(Health, hpNormalized);
 
             var overlayModifier = Mathf.Max(hpNormalized -0.3f, 0f);
             _overlay.localScale = Vector3.one + _overScale * overlayModifier;
         }
-
+        private void OnDisable()
+        {
+            _trash.Dispose();
+        }
         private void OnDestroy()
         {
             _trash.Dispose();

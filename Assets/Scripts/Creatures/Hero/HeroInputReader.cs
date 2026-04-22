@@ -43,9 +43,9 @@ namespace Platformer.InputReader
         }
         public void OnUse(InputAction.CallbackContext context)
         {
-            if (context.performed)
+            if (context.canceled)
             {
-                _hero.useHill();
+                _hero.UseInventory();
             }
         }
         public void OnNextItem(InputAction.CallbackContext context)

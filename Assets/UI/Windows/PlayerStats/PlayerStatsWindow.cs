@@ -54,7 +54,8 @@ namespace Platformer.UI.Windows.PlayerStats
             _price.SetData(def.Price);
 
             _price.gameObject.SetActive(def.Price.Count != 0);
-            _upgradeButton.gameObject.SetActive(def.Price.Count != 0);
+            var coinsInventory = _session.Data.Inventory.Count("Coin");
+            _upgradeButton.gameObject.SetActive(coinsInventory >=  def.Price.Count);
         }
 
         private void OnDestroy()

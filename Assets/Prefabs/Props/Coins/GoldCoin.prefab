@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 7538485608704843274}
   - component: {fileID: 1582904764521775250}
   - component: {fileID: 7877801497095955424}
-  m_Layer: 0
+  - component: {fileID: -310731561404177093}
+  m_Layer: 15
   m_Name: GoldCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 785628733
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 6582046967323461550, guid: af7bafcf7b84d3548a9901f2deed9b25,
     type: 3}
@@ -263,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: Coin
-  _count: 10
+  _count: 15
 --- !u!114 &7877801497095955424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,3 +278,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clip: {fileID: 8300000, guid: 73cc78ea94e216d4fab2fdcd7a315a73, type: 3}
+--- !u!50 &-310731561404177093
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538485608704843275}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

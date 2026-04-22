@@ -1,4 +1,5 @@
 ﻿using Platformer.Components.Dialogs;
+using Platformer.Model.Definitions.Localization;
 using Platformer.UI.Widgets;
 using System;
 using UnityEngine;
@@ -30,9 +31,20 @@ namespace Platformer.UI.Hud.Dialogs
         public void Show(OptionDialogData data)
         {
             _content.SetActive(true);
-            _contentText.text = data.DialogText;
+            
+            _contentText.text = LocalizationManager.I.Localize(data.DialogText);
 
-            _dataGroup.SetData(data.Options);
+            var localizedOptions = new OptionData[data.Options.Length];
+            for (int i = 0; i < data.Options.Length; i++)
+            {
+                localizedOptions[i] = new OptionData
+                {
+                    Text = LocalizationManager.I.Localize(data.Options[i].Text),
+                    OnSelect = data.Options[i].OnSelect
+                };
+            }
+
+            _dataGroup.SetData(localizedOptions);
         }
     }
 

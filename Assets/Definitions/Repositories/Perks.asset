@@ -15,22 +15,22 @@ MonoBehaviour:
   _collection:
   - _id: double_jump
     icon: {fileID: 21300000, guid: 826d8208a6706704bbe6e7dc200bffb3, type: 3}
-    _info: 1After unlock you can use double jump.
+    _info: double_jump
     _price:
       _itemId: Coin
-      _count: 20
+      _count: 8
     _cooldown: 2
   - _id: super_throw
     icon: {fileID: 21300000, guid: 66e35b7bfecbdef4dbfcb270e18ccd6f, type: 3}
-    _info: After unlock you can throw three swords in one time.
+    _info: super_throw
     _price:
       _itemId: DiamondGreen
       _count: 5
     _cooldown: 3
   - _id: shield
     icon: {fileID: 21300000, guid: 578e82e06dca83145a45e8894ed8b1cc, type: 3}
-    _info: After unlock you can use shield protection.
+    _info: Shield_Save
     _price:
-      _itemId: DiamondGreen
-      _count: 5
+      _itemId: Coin
+      _count: 50
     _cooldown: 3
